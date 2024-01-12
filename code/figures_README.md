@@ -16,5 +16,9 @@ Mutation tables can be created with the following matUtils command (assuming ush
 
 For more information on running `reversionthreshold.py` type `reversionthreshold.py -h` from the `{path to viridian_paper repo}/code` directory.
 
+back-mutation.py:
+This code is called from inside the plotting scripts. It takes the mutation table and reference sequence and outputs a tsv of backmutations for the entire MAT.
+
+
 
 
