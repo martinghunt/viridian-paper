@@ -1,20 +1,3 @@
-import argparse
-
-parser = argparse.ArgumentParser()
-parser.add_argument('-f', '--fasta_file', required=True, type=str, help='path to reference fasta')
-parser.add_argument('-m', '--mutation_file', required=True, type=str, help='path to mutation list')
-parser.add_argument('-o', '--out_dir', required=True, help='path to output directory')
-parser.add_argument('-n', '--out_file', required=True, help='name for output file')
-args = parser.parse_args()
-
-fasta = args.fasta_file
-muts = args.mutation_file
-o = args.out_dir
-name = args.out_file
-
-if o[-1] != '/':
-    o = o + '/'
-
 #genome positions are 1-indexed
 def parse_ref(fasta_file):
     with open(fasta_file) as F:
@@ -56,34 +39,51 @@ def getback_muts(muts_file, ref_dict):
 
     return mutations, backmuts, backs
 
-ref = parse_ref(fasta)
-#print(ref)
-mutations, backmuts, backs = getback_muts(muts, ref)
-print('mutations', mutations)
-print('backmuts', backmuts)
-print('backmut rate', backmuts/mutations)
-#print(backs)
 
+def main(fasta, muts, outdir, outfile):
+    ref = parse_ref(fasta)
+    #identify mutations, backmutation counts, and actually backmutations themselves
+    mutations, backmuts, backs = getback_muts(muts, ref)
+    
+    #pipe these to a script if needed
+    print('mutations', mutations)
+    print('backmuts', backmuts)
+    print('backmut rate', backmuts/mutations)
+    
+    #format backs for file output
+    output = []
+    for b in backs:
+        for n in backs[b]:
+            output.append([b[0], n, b[1], str(backs[b][n])])
 
-output = []
-for b in backs:
-    for n in backs[b]:
-        output.append([b[0], n, b[1], str(backs[b][n])])
+    sorted_outputs = sorted(output, key=lambda x: x[0])
 
-sorted_outputs = sorted(output, key=lambda x: x[0])
+    #write backmutation file
+    with open(f'{outdir}backmuts-{outfile}', 'w') as out:
+        out.write('position\tprev_allele\tnew_allele(reference_nuc)\tcounts\n')
+        for o in sorted_outputs:
+            o[0] = str(o[0])
+            o = '\t'.join(o)
+            out.write(f"{o}\n")
 
-#for o in sorted_outputs:
-#    print(o)
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-f', '--fasta_file', required=True, type=str, help='path to reference fasta')
+    parser.add_argument('-m', '--mutation_file', required=True, type=str, help='path to mutation list')
+    parser.add_argument('-o', '--out_dir', required=True, help='path to output directory')
+    parser.add_argument('-n', '--out_file', required=True, help='name for output file')
+    args = parser.parse_args()
 
+    fasta = args.fasta_file
+    muts = args.mutation_file
+    o = args.out_dir
+    name = args.out_file
+    if o[-1] != '/':
+        o = o + '/'
 
-
-with open(f'{o}backmuts-{name}', 'w') as out:
-    out.write('position\tprev_allele\tnew_allele(reference_nuc)\tcounts\n')
-    for o in sorted_outputs:
-        o[0] = str(o[0])
-        o = '\t'.join(o)
-        out.write(f"{o}\n")
-        
-        
+    main(fasta, muts, o, name)
+            
+            
 
 
