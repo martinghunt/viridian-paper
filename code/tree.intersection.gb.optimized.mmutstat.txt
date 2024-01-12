@@ -1,3 +1,0 @@
-mutations 2664960
-backmuts 130122
-backmut rate 0.0488269992795389
