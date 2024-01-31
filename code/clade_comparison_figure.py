@@ -163,20 +163,20 @@ def make_figure(data_dict1, data_dict2, dir):
 def main(vir, gb, dir, datadir):
     #subprocess.run("cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c | sed -E 's/^ *//; s/ /\t/' > figure_data/viridian.counts.tsv", shell=True)
     #subprocess.run("cat figure_data/tree.intersection.gb.optimized.intros_clades.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c | sed -E 's/^ *//; s/ /\t/' > figure_data/gb.counts.tsv", shell=True)
-    cmd = f"""cat {gb} | cut -f10,2 | awk -F'\t' '{{print $2 "\t" $1}}' > {datadir}gb.counts.tsv"""
-    subprocess.run(cmd, shell=True)
-    cmd = f"""cat {vir} | cut -f10,2 | awk -F'\t' '{{print $2 "\t" $1}}' > {datadir}viridian.counts.tsv"""
-    subprocess.run( cmd, shell=True)
-    file1_path = f'{datadir}gb.counts.tsv'
-    file2_path = f'{datadir}viridian.counts.tsv'
+    #cmd = f"""cat {gb} | cut -f10,2 | awk -F'\t' '{{print $2 "\t" $1}}' > {datadir}gb.counts.tsv"""
+    #subprocess.run(cmd, shell=True)
+    #cmd = f"""cat {vir} | cut -f10,2 | awk -F'\t' '{{print $2 "\t" $1}}' > {datadir}viridian.counts.tsv"""
+    #subprocess.run( cmd, shell=True)
+    #file1_path = f'{datadir}gb.counts.tsv'
+    #file2_path = f'{datadir}viridian.counts.tsv'
 
     # Read data from the first file
-    data1 = read_parsed_intros(file1_path)
+    data1 = read_parsed_intros(gb)
     
     # Read data from the second file
-    data2 = read_parsed_intros(file2_path)
+    data2 = read_parsed_intros(vir)
     #compute_percent_difference(data1, data2)
-    print(data1)
+    #print(data1)
     cdf1 = compute_cdf(data1, f'{datadir}gb.cumulative.tsv') 
     cdf2 = compute_cdf(data2, f'{datadir}vir.cumulative.tsv') 
 
