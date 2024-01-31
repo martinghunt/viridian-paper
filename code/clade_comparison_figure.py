@@ -209,7 +209,7 @@ if __name__ == "__main__":
     #of = args.outfile
     #rm = args.remove_files
     datadir = '/'.join(vir.split('/')[:-1])+'/'
-    print(datadir)
+    #print(datadir)
     #m2name = m2.split('/')[-1][:-4]
 
     #keep software as unit

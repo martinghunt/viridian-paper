@@ -113,6 +113,8 @@ if __name__ == "__main__":
     rm = args.remove_files
     m1name = m1.split('/')[-1][:-4]
     m2name = m2.split('/')[-1][:-4]
+    datadir = '/'.join(m1.split('/')[:-1])+'/'
+    print('data', datadir)
 
     #keep software as unit
     software_dir = '/'.join(sys.argv[0].split('/')[:-1])+'/'
