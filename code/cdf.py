@@ -60,8 +60,8 @@ def compute_percent_difference(data1, data2):
 
 def main():
     # File paths
-    file1_path = 'gb.counts.txt'
-    file2_path = 'vir.counts.txt'
+    file1_path = './figure_data/gb.counts.txt'
+    file2_path = './figure_data/vir.counts.txt'
 
     # Read data from the first file
     data1 = read_tab_delimited_file(file1_path)
