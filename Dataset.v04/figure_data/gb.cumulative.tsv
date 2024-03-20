@@ -1,0 +1,635 @@
+country	cluster_size	cumulative_samples
+Lebanon	1	34
+Lebanon	2	68
+Lebanon	3	86
+Lebanon	4	98
+Lebanon	6	116
+Lebanon	10	126
+Lebanon	11	137
+Lebanon	13	150
+Lebanon	14	164
+Lebanon	19	183
+Lebanon	599	782
+Zimbabwe	1	5
+Zimbabwe	2	13
+Zimbabwe	3	16
+Zimbabwe	4	20
+Zimbabwe	5	30
+Zimbabwe	6	42
+Zimbabwe	10	52
+Zimbabwe	29	81
+Australia	1	70
+Australia	2	120
+Australia	3	144
+Australia	4	176
+Australia	5	211
+Australia	6	223
+Australia	7	230
+Australia	8	246
+Australia	10	266
+Australia	13	279
+Australia	14	307
+Australia	15	322
+Australia	21	343
+Australia	23	366
+Australia	67	433
+Australia	93	526
+Australia	121	647
+Australia	169	816
+Australia	234	1050
+Australia	261	1311
+Australia	10998	12309
+Canada	1	4
+Belgium	1	1
+USA	1	7281
+USA	2	13805
+USA	3	17729
+USA	4	20745
+USA	5	22805
+USA	6	24527
+USA	7	26025
+USA	8	27177
+USA	9	28284
+USA	10	29504
+USA	11	30439
+USA	12	31447
+USA	13	32123
+USA	14	32795
+USA	15	33560
+USA	16	34280
+USA	17	34739
+USA	18	35333
+USA	19	35884
+USA	20	36724
+USA	21	37333
+USA	22	37773
+USA	23	38187
+USA	24	38595
+USA	25	39020
+USA	26	39410
+USA	27	39815
+USA	28	40207
+USA	29	40613
+USA	30	41303
+USA	31	41489
+USA	32	41745
+USA	33	42009
+USA	34	42281
+USA	35	42736
+USA	36	43024
+USA	37	43246
+USA	38	43588
+USA	39	43822
+USA	40	43982
+USA	41	44187
+USA	42	44565
+USA	43	44737
+USA	44	45089
+USA	45	45269
+USA	46	45729
+USA	47	45917
+USA	48	46061
+USA	49	46306
+USA	50	46606
+USA	51	46912
+USA	52	47120
+USA	53	47385
+USA	54	47493
+USA	55	47823
+USA	56	48047
+USA	57	48218
+USA	58	48566
+USA	59	48684
+USA	60	48864
+USA	61	49047
+USA	62	49295
+USA	63	49421
+USA	64	49869
+USA	65	50064
+USA	66	50262
+USA	67	50530
+USA	68	50666
+USA	70	50876
+USA	71	51018
+USA	72	51090
+USA	73	51382
+USA	74	51456
+USA	75	51606
+USA	76	51682
+USA	77	51836
+USA	78	51914
+USA	79	52309
+USA	80	52389
+USA	81	52470
+USA	82	52552
+USA	83	52718
+USA	84	52970
+USA	85	53310
+USA	86	53568
+USA	88	53832
+USA	89	54010
+USA	90	54190
+USA	91	54281
+USA	92	54373
+USA	93	54466
+USA	94	54560
+USA	95	54655
+USA	96	54751
+USA	97	55236
+USA	98	55432
+USA	100	55732
+USA	102	55936
+USA	103	56039
+USA	106	56145
+USA	107	56359
+USA	108	56791
+USA	110	57121
+USA	111	57343
+USA	113	57456
+USA	114	57684
+USA	115	58144
+USA	117	58378
+USA	118	58496
+USA	119	58734
+USA	121	58855
+USA	122	59221
+USA	123	59344
+USA	130	59474
+USA	131	59998
+USA	132	60130
+USA	133	60263
+USA	136	60535
+USA	138	60673
+USA	139	60812
+USA	140	61092
+USA	143	61235
+USA	144	61379
+USA	149	61677
+USA	151	61828
+USA	152	62284
+USA	154	62438
+USA	156	62594
+USA	160	62914
+USA	166	63246
+USA	167	63413
+USA	169	63751
+USA	170	63921
+USA	183	64104
+USA	186	64476
+USA	190	64666
+USA	191	64857
+USA	195	65052
+USA	198	65448
+USA	209	65657
+USA	211	65868
+USA	214	66082
+USA	223	66528
+USA	226	66754
+USA	230	66984
+USA	231	67215
+USA	232	67447
+USA	241	67688
+USA	244	67932
+USA	245	68177
+USA	249	68426
+USA	255	68681
+USA	259	68940
+USA	262	69202
+USA	274	69750
+USA	279	70029
+USA	280	70309
+USA	289	70598
+USA	292	70890
+USA	300	71490
+USA	301	71791
+USA	312	72103
+USA	323	72426
+USA	324	72750
+USA	325	73075
+USA	338	73413
+USA	339	73752
+USA	343	74095
+USA	344	74439
+USA	350	74789
+USA	354	75143
+USA	357	75500
+USA	370	75870
+USA	413	76283
+USA	415	76698
+USA	426	77124
+USA	473	77597
+USA	476	78073
+USA	479	78552
+USA	487	79039
+USA	493	79532
+USA	501	80033
+USA	505	80538
+USA	511	81560
+USA	530	82090
+USA	550	82640
+USA	608	83248
+USA	613	83861
+USA	622	84483
+USA	625	85108
+USA	669	85777
+USA	688	86465
+USA	700	87165
+USA	738	87903
+USA	829	88732
+USA	899	89631
+USA	936	90567
+USA	958	91525
+USA	981	92506
+USA	993	93499
+USA	1014	94513
+USA	1017	95530
+USA	1124	96654
+USA	1140	97794
+USA	1201	98995
+USA	1213	100208
+USA	1263	101471
+USA	1296	102767
+USA	1316	104083
+USA	1397	105480
+USA	1502	106982
+USA	1639	108621
+USA	1749	110370
+USA	1833	112203
+USA	1834	114037
+USA	2055	116092
+USA	2681	118773
+USA	3168	121941
+USA	3816	125757
+USA	3846	129603
+USA	4004	133607
+USA	4662	138269
+USA	4783	143052
+USA	5020	148072
+USA	5040	153112
+USA	5421	158533
+USA	7431	165964
+USA	9216	175180
+USA	10175	185355
+USA	10944	196299
+USA	11882	208181
+USA	14235	222416
+USA	15480	237896
+USA	20728	258624
+USA	21010	279634
+USA	28317	307951
+USA	36938	344889
+USA	50208	395097
+USA	61377	456474
+USA	96696	553170
+USA	151549	704719
+USA	222596	927315
+Slovakia	1	2046
+Slovakia	2	3540
+Slovakia	3	4467
+Slovakia	4	5107
+Slovakia	5	5687
+Slovakia	6	6287
+Slovakia	7	6609
+Slovakia	8	6929
+Slovakia	9	7163
+Slovakia	10	7383
+Slovakia	11	7581
+Slovakia	12	7929
+Slovakia	13	8085
+Slovakia	14	8267
+Slovakia	15	8387
+Slovakia	16	8579
+Slovakia	17	8749
+Slovakia	18	8839
+Slovakia	19	8915
+Slovakia	20	8975
+Slovakia	21	9122
+Slovakia	22	9210
+Slovakia	23	9279
+Slovakia	24	9327
+Slovakia	25	9502
+Slovakia	26	9580
+Slovakia	27	9688
+Slovakia	28	9716
+Slovakia	29	9890
+Slovakia	30	9980
+Slovakia	31	10011
+Slovakia	32	10107
+Slovakia	33	10239
+Slovakia	34	10307
+Slovakia	35	10342
+Slovakia	36	10414
+Slovakia	37	10562
+Slovakia	38	10676
+Slovakia	39	10715
+Slovakia	40	10875
+Slovakia	42	10917
+Slovakia	43	11003
+Slovakia	45	11048
+Slovakia	46	11186
+Slovakia	47	11233
+Slovakia	48	11281
+Slovakia	49	11428
+Slovakia	53	11481
+Slovakia	54	11589
+Slovakia	55	11644
+Slovakia	56	11700
+Slovakia	57	11757
+Slovakia	58	11815
+Slovakia	60	11875
+Slovakia	61	11936
+Slovakia	68	12072
+Slovakia	69	12141
+Slovakia	72	12213
+Slovakia	73	12505
+Slovakia	81	12586
+Slovakia	82	12668
+Slovakia	85	12753
+Slovakia	86	12839
+Slovakia	90	12929
+Slovakia	92	13021
+Slovakia	100	13121
+Slovakia	101	13222
+Slovakia	103	13325
+Slovakia	105	13430
+Slovakia	107	13537
+Slovakia	117	13654
+Slovakia	129	13783
+Slovakia	148	13931
+Slovakia	163	14094
+Slovakia	192	14286
+Slovakia	197	14483
+Slovakia	241	14724
+Slovakia	242	14966
+Slovakia	250	15216
+Slovakia	258	15474
+Slovakia	262	15736
+Slovakia	273	16009
+Slovakia	279	16288
+Slovakia	303	16591
+Slovakia	343	16934
+Slovakia	353	17287
+Slovakia	426	17713
+Slovakia	526	18239
+Slovakia	580	18819
+Slovakia	663	19482
+Slovakia	785	20267
+Slovakia	795	21062
+Slovakia	823	21885
+Slovakia	920	22805
+Slovakia	1402	24207
+Slovakia	1567	25774
+India	1	9
+India	2	15
+India	3	24
+India	4	28
+India	6	34
+India	19	53
+India	31	84
+France	1	67
+France	2	127
+France	3	157
+France	4	217
+France	5	232
+France	6	256
+France	7	284
+France	8	324
+France	9	333
+France	10	363
+France	11	396
+France	13	435
+France	17	469
+France	18	487
+France	19	506
+France	26	532
+France	33	565
+France	38	603
+France	50	653
+France	54	707
+France	68	775
+France	76	851
+Bangladesh	1	3
+Bangladesh	9	12
+Bangladesh	12	24
+Bangladesh	13	37
+Germany	1	28
+Germany	2	36
+Germany	3	48
+Germany	12	60
+Germany	21	81
+Jordan	1	3
+Japan	1	1
+Mexico	1	3
+Pakistan	1	111
+Pakistan	2	171
+Pakistan	3	207
+Pakistan	4	247
+Pakistan	5	262
+Pakistan	7	269
+Pakistan	8	277
+Pakistan	9	286
+Pakistan	18	304
+Estonia	1	1
+South Africa	1	25
+South Africa	2	41
+South Africa	5	51
+South Africa	7	58
+South Africa	9	67
+United Kingdom	1	6765
+United Kingdom	2	12121
+United Kingdom	3	15586
+United Kingdom	4	18086
+United Kingdom	5	19866
+United Kingdom	6	21552
+United Kingdom	7	22966
+United Kingdom	8	24230
+United Kingdom	9	25130
+United Kingdom	10	26070
+United Kingdom	11	26862
+United Kingdom	12	27786
+United Kingdom	13	28540
+United Kingdom	14	29198
+United Kingdom	15	29633
+United Kingdom	16	30257
+United Kingdom	17	30818
+United Kingdom	18	31394
+United Kingdom	19	31831
+United Kingdom	20	32371
+United Kingdom	21	32539
+United Kingdom	22	32891
+United Kingdom	23	33328
+United Kingdom	24	33544
+United Kingdom	25	33869
+United Kingdom	26	34129
+United Kingdom	27	34372
+United Kingdom	28	34708
+United Kingdom	29	34940
+United Kingdom	30	35150
+United Kingdom	31	35243
+United Kingdom	32	35435
+United Kingdom	33	35600
+United Kingdom	34	35770
+United Kingdom	35	36085
+United Kingdom	36	36265
+United Kingdom	37	36450
+United Kingdom	38	36640
+United Kingdom	39	36913
+United Kingdom	40	37073
+United Kingdom	41	37319
+United Kingdom	42	37655
+United Kingdom	43	37913
+United Kingdom	44	37957
+United Kingdom	45	38272
+United Kingdom	46	38502
+United Kingdom	47	38643
+United Kingdom	48	38835
+United Kingdom	49	39031
+United Kingdom	50	39131
+United Kingdom	51	39335
+United Kingdom	52	39387
+United Kingdom	53	39493
+United Kingdom	54	39817
+United Kingdom	55	39927
+United Kingdom	56	40039
+United Kingdom	57	40153
+United Kingdom	58	40211
+United Kingdom	59	40270
+United Kingdom	60	40450
+United Kingdom	61	40572
+United Kingdom	62	40634
+United Kingdom	63	40760
+United Kingdom	64	40824
+United Kingdom	65	40954
+United Kingdom	66	41020
+United Kingdom	67	41087
+United Kingdom	68	41155
+United Kingdom	69	41224
+United Kingdom	70	41364
+United Kingdom	71	41506
+United Kingdom	72	41722
+United Kingdom	73	41941
+United Kingdom	76	42093
+United Kingdom	77	42324
+United Kingdom	79	42482
+United Kingdom	80	42562
+United Kingdom	81	42724
+United Kingdom	82	42970
+United Kingdom	83	43136
+United Kingdom	85	43221
+United Kingdom	86	43307
+United Kingdom	88	43395
+United Kingdom	89	43484
+United Kingdom	91	43757
+United Kingdom	92	44033
+United Kingdom	93	44126
+United Kingdom	96	44222
+United Kingdom	98	44320
+United Kingdom	100	44520
+United Kingdom	101	44722
+United Kingdom	102	44824
+United Kingdom	104	45032
+United Kingdom	105	45137
+United Kingdom	106	45243
+United Kingdom	107	45350
+United Kingdom	110	45570
+United Kingdom	115	45685
+United Kingdom	116	46033
+United Kingdom	117	46267
+United Kingdom	119	46505
+United Kingdom	120	46625
+United Kingdom	121	46746
+United Kingdom	122	46990
+United Kingdom	130	47120
+United Kingdom	153	47426
+United Kingdom	157	47583
+United Kingdom	160	47743
+United Kingdom	162	47905
+United Kingdom	164	48397
+United Kingdom	169	48566
+United Kingdom	170	48736
+United Kingdom	172	48908
+United Kingdom	178	49086
+United Kingdom	180	49446
+United Kingdom	181	49627
+United Kingdom	185	49812
+United Kingdom	188	50000
+United Kingdom	190	50190
+United Kingdom	191	50572
+United Kingdom	194	50766
+United Kingdom	197	50963
+United Kingdom	200	51163
+United Kingdom	201	51364
+United Kingdom	202	51566
+United Kingdom	204	51770
+United Kingdom	212	51982
+United Kingdom	214	52196
+United Kingdom	215	52411
+United Kingdom	217	52628
+United Kingdom	218	52846
+United Kingdom	223	53292
+United Kingdom	229	53521
+United Kingdom	243	53764
+United Kingdom	245	54009
+United Kingdom	255	54264
+United Kingdom	263	54527
+United Kingdom	266	54793
+United Kingdom	269	55331
+United Kingdom	272	55603
+United Kingdom	282	55885
+United Kingdom	296	56181
+United Kingdom	308	56489
+United Kingdom	325	56814
+United Kingdom	326	57140
+United Kingdom	362	57502
+United Kingdom	369	57871
+United Kingdom	374	58245
+United Kingdom	377	58622
+United Kingdom	380	59002
+United Kingdom	418	59420
+United Kingdom	436	59856
+United Kingdom	440	60296
+United Kingdom	482	60778
+United Kingdom	568	61346
+United Kingdom	578	61924
+United Kingdom	642	62566
+United Kingdom	651	63217
+United Kingdom	655	63872
+United Kingdom	689	64561
+United Kingdom	865	65426
+United Kingdom	904	66330
+United Kingdom	915	67245
+United Kingdom	953	68198
+United Kingdom	1066	69264
+United Kingdom	1126	70390
+United Kingdom	1145	71535
+United Kingdom	1352	72887
+United Kingdom	1463	74350
+United Kingdom	1618	75968
+United Kingdom	1742	77710
+United Kingdom	1834	79544
+United Kingdom	1941	81485
+United Kingdom	2339	83824
+United Kingdom	2999	86823
+United Kingdom	3427	90250
+United Kingdom	4312	94562
+United Kingdom	4709	99271
+United Kingdom	5074	104345
+United Kingdom	5289	109634
+United Kingdom	6139	115773
+United Kingdom	7849	123622
+United Kingdom	8024	131646
+United Kingdom	8356	140002
+United Kingdom	10716	150718
+United Kingdom	11405	162123
+United Kingdom	14579	176702
+United Kingdom	15762	192464
+United Kingdom	15896	208360
+United Kingdom	21729	230089
+United Kingdom	44044	274133
+United Kingdom	275865	549998
+United Kingdom	289044	839042
+United Kingdom	336243	1175285
+United Kingdom	863416	2038701
+Timor-Leste	1	1
+Northern Mariana Islands	1	6
+Kuwait	1	1

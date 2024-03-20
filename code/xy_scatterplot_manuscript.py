@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mplpatches
 import numpy as np
 import argparse
-import math 
+
+#import math 
 
 #count reversions at each position of genome across the whole tree
 def make_histo(mutname, ref_seq):
@@ -85,11 +86,11 @@ def main(dir, ref, m1, m2, of, m1name, m2name, software_dir, rm):
     panel2.set_aspect('equal')
     panel1.set_aspect('equal')
     panel1.set_xlabel('Reversion Counts in Viridian')
-    panel1.set_ylabel('Reversion Counts in GB')
+    panel1.set_ylabel('Reversion Counts in Genbank')
     panel2.set_xlabel('Reversion Counts in Viridian')
-    panel2.set_ylabel('Reversion Counts in GB')
+    panel2.set_ylabel('Reversion Counts in Genbank')
 
-    panel1.scatter(counts1, counts2, s=5, c='b', marker="o", label='second', alpha=.1)
+    panel1.scatter(counts1, counts2, s=5, c='b', marker="o", label='second', alpha=.2)
 
     #plot y=x line
     panel1.axline((0, 0), slope=1, alpha=.7)
@@ -98,7 +99,7 @@ def main(dir, ref, m1, m2, of, m1name, m2name, software_dir, rm):
     #panel1.set_yscale("log")
     #panel1.set_xscale("log")
     panel1.set_ylim(panel1.get_xlim())
-    panel2.scatter(counts1, counts2, s=5, c='b', marker="o", label='second', alpha=.1)
+    panel2.scatter(counts1, counts2, s=5, c='b', marker="o", label='second', alpha=.2)
     panel2.set_xlim(100,5000)
     panel2.set_ylim(100,5000)
     panel2.axline((0, 0), slope=1, alpha=.7)
@@ -106,6 +107,12 @@ def main(dir, ref, m1, m2, of, m1name, m2name, software_dir, rm):
     rectangle1=mplpatches.Rectangle([100,100],790,990,
                                     linewidth=.7,
                                     edgecolor='black', facecolor='none', ls='--')
+    
+    panel2.spines['top'].set_linestyle(':')
+    panel2.spines['right'].set_linestyle(':')
+    panel2.spines['bottom'].set_linestyle(':')
+    panel2.spines['left'].set_linestyle(':')
+
     
     # Set arrow properties
     arrow_length = 3000
@@ -145,10 +152,10 @@ def main(dir, ref, m1, m2, of, m1name, m2name, software_dir, rm):
             arrow_start = (o[0] + 150, o[1]+ arrow_length + label_offset - 75)
         if o[2] == 22812:
             arrow_end = (o[0], o[1] + label_offset)
-            arrow_start = (o[0] + 350, o[1]+ arrow_length + 200 + label_offset)
+            arrow_start = (o[0] + 550, o[1]+ arrow_length + 200 + label_offset)
         if o[2] == 24409:
             arrow_end = (o[0], o[1] + label_offset)
-            arrow_start = (o[0] + 900, o[1]+ arrow_length + 600 + label_offset)   
+            arrow_start = (o[0] + 400, o[1]+ arrow_length + 600 + label_offset)   
         if o[2] == 27637:
             arrow_end = (o[0], o[1] + label_offset)
             arrow_start = (o[0] + 500, o[1]+ arrow_length + 0 + label_offset)

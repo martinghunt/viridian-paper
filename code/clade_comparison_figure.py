@@ -160,7 +160,7 @@ def make_figure(data_dict1, data_dict2, dir):
 
 
 #process data and create figure
-def main(vir, gb, dir, datadir):
+def main(vir, gb, dir):
     #subprocess.run("cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c | sed -E 's/^ *//; s/ /\t/' > figure_data/viridian.counts.tsv", shell=True)
     #subprocess.run("cat figure_data/tree.intersection.gb.optimized.intros_clades.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c | sed -E 's/^ *//; s/ /\t/' > figure_data/gb.counts.tsv", shell=True)
     #cmd = f"""cat {gb} | cut -f10,2 | awk -F'\t' '{{print $2 "\t" $1}}' > {datadir}gb.counts.tsv"""
@@ -177,13 +177,13 @@ def main(vir, gb, dir, datadir):
     data2 = read_parsed_intros(vir)
     #compute_percent_difference(data1, data2)
     #print(data1)
-    cdf1 = compute_cdf(data1, f'{datadir}gb.cumulative.tsv') 
-    cdf2 = compute_cdf(data2, f'{datadir}vir.cumulative.tsv') 
+    cdf1 = compute_cdf(data1, f'{dir}gb.cumulative.tsv') 
+    cdf2 = compute_cdf(data2, f'{dir}vir.cumulative.tsv') 
 
     
     #contains all positions and their counts including counts of 0
-    gb_data = read_tab_delimited_file(f'{datadir}gb.cumulative.tsv')
-    vir_data = read_tab_delimited_file(f'{datadir}vir.cumulative.tsv')
+    gb_data = read_tab_delimited_file(f'{dir}gb.cumulative.tsv')
+    vir_data = read_tab_delimited_file(f'{dir}vir.cumulative.tsv')
     make_figure(gb_data, vir_data, dir)
     
 
@@ -192,11 +192,13 @@ def main(vir, gb, dir, datadir):
 #create args
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    #parser.add_argument('-dd', '--data_directory', required=True, type=str, help='directory for all data (make sure this directory will have enough space!!!!)')
+
     parser.add_argument('-d', '--working_directory', required=True, type=str, help='directory for all outputs (make sure this directory will have enough space!!!!)')
     #parser.add_argument('-of', '--outfile', required=True, type=str, help='name for output file-omit suffix (make sure this directory will have enough space!!!!)')
     #parser.add_argument('-r', '--ref_file', required=True, type=str, help="path to reference fasta file")
-    parser.add_argument('-vir', '--viridian_mutations', required=True, type=str, help="path to mutation file for mat1")
-    parser.add_argument('-gb', '--genbank_mutations', required=True, type=str, help="path to mutation file for mat2")
+    parser.add_argument('-vir', '--viridian_intros', required=True, type=str, help="path to mutation file for mat1")
+    parser.add_argument('-gb', '--genbank_intros', required=True, type=str, help="path to mutation file for mat2")
     #parser.add_argument('-rm', '--remove_files', required=False, default=False, type=bool, help="if True, remove backmutation files created for analysis")
 
     args = parser.parse_args()
@@ -204,11 +206,14 @@ if __name__ == "__main__":
     if not dir.endswith('/'):
         dir = dir+'/'
     #ref = args.ref_file
-    vir = args.viridian_mutations
-    gb = args.genbank_mutations
+    vir = args.viridian_intros
+    gb = args.genbank_intros
     #of = args.outfile
     #rm = args.remove_files
-    datadir = '/'.join(vir.split('/')[:-1])+'/'
+    #datadir = args.data_directory
+    #software_dir = '/'.join(sys.argv[0].split('/')[:-1])+'/'
+    #if datadir[-1] != '/':
+    #    datadir = datadir +'/'
     #print(datadir)
     #m2name = m2.split('/')[-1][:-4]
 
@@ -217,7 +222,7 @@ if __name__ == "__main__":
     #if software_dir == '/':
     #    software_dir = './'
 
-    main(vir, gb, dir, datadir)
+    main(vir, gb, dir)
 
 
 
