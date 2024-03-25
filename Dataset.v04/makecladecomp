@@ -1,0 +1,1000 @@
+ 1591  htop -u lily
+ 1592  htop
+ 1593  less /storage1/lily/pbwt/vcfs10-09/out 
+ 1594  less /storage1/lily/pbwt/vcfs10-09/error 
+ 1595  less /storage1/lily/pbwt/vcfs10-09/pop_18000_fixed_len_1e6_var_mutrate_0_recomrate_0.vcf 
+ 1596  less -S /storage1/lily/pbwt/vcfs10-09/pop_18000_fixed_len_1e6_var_mutrate_0_recomrate_0.vcf 
+ 1597  screen -r par
+ 1598  htop
+ 1599  screen -r par
+ 1600  htop -u lily
+ 1601  screen -r par
+ 1602  less -S /storage1/lily/pbwt/vcfs10-09/pop_18000_fixed_len_1e6_var_mutrate_0_recomrate_0.vcf 
+ 1603  less /storage1/lily/pbwt/vcfs10-09/pop_18000_fixed_len_1e6_var_mutrate_
+ 1604  tail /storage1/lily/pbwt/vcfs10-09/out 
+ 1605  screen -r par
+ 1606  wc -l /storage1/lily/pbwt/vcfs10-09/pop_18000_fixed_len_1e6_var_mutrate_14_recomrate_0.vcf
+ 1607  htop
+ 1608  screen -r par
+ 1609  less /storage1/lily/pbwt/vcfs10-09/out 
+ 1610  tail /storage1/lily/pbwt/vcfs10-09/out 
+ 1611  less /storage1/lily/pbwt/vcfs10-09/out 
+ 1612  head /storage1/lily/pbwt/vcfs10-09/out 
+ 1613  tail /storage1/lily/pbwt/vcfs10-09/out 
+ 1614  htop
+ 1615  htop -u lily
+ 1616  screen -r par
+ 1617  htop -u lily
+ 1618  screen -r par
+ 1619  htop -u lily
+ 1620  screen -r par
+ 1621  less /storage1/lily/pbwt/vcfs10-09/out 
+ 1622  tail /storage1/lily/pbwt/vcfs10-09/out 
+ 1623  tail /storage1/lily/pbwt/vcfs10-09/error 
+ 1624  screen -r par
+ 1625  htop -u lily
+ 1626  htop 
+ 1627  screen -r par
+ 1628  less -S /storage1/lily/pbwt/vcfs10-09/pop_22000_fixed_len_1e6_var_mutrate_8_recomrate_0.vcf 
+ 1629  wc -l /storage1/lily/pbwt/vcfs10-09/pop_22000_fixed_len_1e6_var_mutrate_8_recomrate_0.vcf 
+ 1630  screen -r par
+ 1631  htop
+ 1632  top
+ 1633  screen -r par
+ 1634  top
+ 1635  screen -r par
+ 1636  cd /storage1/lily/pbwt/vcfs10-09/
+ 1637  ls
+ 1638  usher-sampled -t ~/scripts/haplotype-compression/ref.nwk -v pop_18000_fixed_len_1e6_var_mutrate_18_recomrate_0.vcf -o pop_18000_fixed_len_1e6_var_mutrate_18_recomrate_0.opt.pb
+ 1639  htop
+ 1640  usher-sampled -t ~/scripts/haplotype-compression/ref.nwk -v pop_18000_fixed_len_1e6_var_mutrate_18_recomrate_0.vcf -o pop_18000_fixed_len_1e6_var_mutrate_18_recomrate_0.opt.pb -T 30
+ 1641  screen -r par
+ 1642  top 
+ 1643  htop
+ 1644  screen -r par
+ 1645  conda activate btw
+ 1646  conda activate bte
+ 1647  py ~/scripts/haplotype-compression/pbToEncMat.py 
+ 1648  py ~/scripts/haplotype-compression/pbToEncMat.py -t 10 -d .
+ 1649  py ~/scripts/haplotype-compression/pbToEncMat.py -t 10 -d ./vcf/
+ 1650  ls
+ 1651  py ~/scripts/haplotype-compression/pbToEncMat.py -t 10 -d ./vcf
+ 1652  htop
+ 1653  screen -r par
+ 1654  pkill -u ash
+ 1655  sudo pkill -u ash
+ 1656  htop
+ 1657  ls /proc/sys/vm/drop_caches 
+ 1658  less /proc/sys/vm/drop_caches 
+ 1659  sudo less /proc/sys/vm/drop_caches 
+ 1660  echo /proc/sys/vm/drop_caches 
+ 1661  ftoola
+ 1662  ftools
+ 1663  htop
+ 1664  sudo apt install ftools
+ 1665  fincore
+ 1666  sudo apt-install linux-fincore
+ 1667  sudo apt install linux-fincore
+ 1668  screen -r par
+ 1669  htop
+ 1670  iosats
+ 1671  iostats
+ 1672  iostat
+ 1673  echo 1 >/proc/sys/vm/drop_caches
+ 1674  sudo echo 1 >/proc/sys/vm/drop_caches
+ 1675  root
+ 1676  su
+ 1677  mkdir /storage1/test
+ 1678  sudo mkdir /storage1/test
+ 1679  sudo rm /storage1/test/
+ 1680  sudo rm -r /storage1/test/
+ 1681  htop
+ 1682  sudo su
+ 1683  sudo sh -c 'echo 1 > /proc/sys/vm/drop_caches'
+ 1684  htop
+ 1685  screen -r par
+ 1686  cd /storage1/lily/pbwt/
+ 1687  l
+ 1688  ls
+ 1689  mkdir vcfs10-17
+ 1690  cd vcfs10-17
+ 1691  mv ~/scripts/haplotype-compression/vcf/
+ 1692  mv ~/scripts/haplotype-compression/vcf/ .
+ 1693  py ~/scripts/haplotype-compression/pbToEncMat.py -
+ 1694  screen -S tryagain
+ 1695  screen -r par
+ 1696  screen -r tryagain
+ 1697  screen -S tryagain
+ 1698  htop
+ 1699  screen -r tryagain
+ 1700  mkdir ../test
+ 1701  cp ../vcfs10-09/*22000* ../test
+ 1702  ls -lh ../test
+ 1703  ls -lh ../test | head
+ 1704  pwd
+ 1705  screen -r tryagain
+ 1706  htop
+ 1707  htop -u lily
+ 1708  screen -r tryagain
+ 1709  htop
+ 1710  screen -r tryagain 
+ 1711  htop
+ 1712  htop -u lily
+ 1713  htop
+ 1714  htop -u lily
+ 1715  screen -r par 
+ 1716  screen -r tryagain 
+ 1717  htop -u lily
+ 1718  htop
+ 1719  screen -r tryagain 
+ 1720  htop -u lily
+ 1721  screen -r tryagain 
+ 1722  less /storage1/lily/pbwt/vcfs10-09/pop_56000_fixed_len_1e6_var_mutrate_1_recomrate_0.vcf 
+ 1723  wc -l/storage1/lily/pbwt/vcfs10-09/pop_56000_fixed_len_1e6_var_mutrate_1_recomrate_0.vcf 
+ 1724  wc -l /storage1/lily/pbwt/vcfs10-09/pop_56000_fixed_len_1e6_var_mutrate_1_recomrate_0.vcf 
+ 1725  screen -r tryagain 
+ 1726  htop
+ 1727  screen -r tryagain 
+ 1728  htop -u lily
+ 1729  screen -r tryagain 
+ 1730  htop -u lily
+ 1731  screen -r tryagain 
+ 1732  htop
+ 1733  cd tr
+ 1734  screen -r tryagain 
+ 1735  cd /storage1/lily/pbwt/
+ 1736  ls
+ 1737  cd vcfs10-09/
+ 1738  ls
+ 1739  less filestats.tsv 
+ 1740  screen -r tryagain 
+ 1741  less filestats.tsv 
+ 1742  screen -r tryagain 
+ 1743  less filestats.tsv 
+ 1744  screen -r tryagain 
+ 1745  less filestats.tsv 
+ 1746  screen -r tryagain 
+ 1747  less filestats.tsv 
+ 1748  cat fi
+ 1749  cat filestats.tsv 
+ 1750  head filestats.tsv 
+ 1751  head pop_5000_fixed_len_1e6_var_mutrate_0_recomrate_0.optimized.pb 
+ 1752  less pop_5000_fixed_len_1e6_var_mutrate_0_recomrate_0.encMAT 
+ 1753  screen -r tryagain 
+ 1754  cat filestats.tsv 
+ 1755  less pop_5000_fixed_len_1e6_var_mutrate_0_recomrate_0.encMAT 
+ 1756  less pop_5000_fixed_len_1e6_var_mutrate_0_recomrate_0.vcf 
+ 1757  less pop_5000_fixed_len_1e6_var_mutrate_0_recomrate_0.pbwt 
+ 1758  cat filestats.tsv 
+ 1759  head filestats.tsv 
+ 1760  less pop_5000_fixed_len_1e6_var_mutrate_0_recomrate_0.encMAT 
+ 1761  screen -r tryagain 
+ 1762  head filestats.tsv 
+ 1763  less filestats.tsv 
+ 1764  cat filestats.tsv 
+ 1765  screen -r tryagain 
+ 1766  cat filestats.tsv 
+ 1767  screen -r tryagain 
+ 1768  cd /storage1/lily/tb-tree/tb-data/
+ 1769  l
+ 1770  ls
+ 1771  cd ../../pbwt/
+ 1772  ld
+ 1773  ls
+ 1774  cd 
+ 1775  cd scripts/haplotype-compression/
+ 1776  ls
+ 1777  cp plot.py moreplots.py
+ 1778  screen -r pbwt 
+ 1779  screen -r tryagain 
+ 1780  htop
+ 1781  htop -u lily
+ 1782  screen -r tryagain 
+ 1783  htop
+ 1784  top
+ 1785  top -u nico
+ 1786  top -u erik
+ 1787  top -u cole
+ 1788  htop
+ 1789  top -u alex
+ 1790  htop
+ 1791  screen -r tryagain 
+ 1792  htop
+ 1793  top -u alex
+ 1794  top -u cole
+ 1795  top -u nico
+ 1796  top -u erik
+ 1797  htop
+ 1798  screen -r tryagain 
+ 1799  ls -lh /storage1/lily/pbwt/vcfs10-09/
+ 1800  ls -lh /storage1/lily/pbwt/vcfs10-09/ | head
+ 1801  screen -r tryagain 
+ 1802  htop
+ 1803  top 
+ 1804  screen -r tryagain 
+ 1805  top 
+ 1806  htop
+ 1807  top 
+ 1808  htop
+ 1809  screen -r tryagain 
+ 1810  cd /storage1/lily/pbwt/
+ 1811  ls
+ 1812  htop
+ 1813  htop -u lily
+ 1814  screen -r tryagain 
+ 1815  top -u lilu
+ 1816  top -u lily
+ 1817  screen -S doribranch
+ 1818  screen -S dorigit
+ 1819  screen -r doribranch
+ 1820  screen -r tryagain 
+ 1821  screen -r pbwt 
+ 1822  screen -r tryagain 
+ 1823  top -u lily
+ 1824  screen -r tryagain 
+ 1825  screen -r doribranch
+ 1826  ls /scratch1/dori/assembly/B6_1/vcf
+ 1827  less /scratch1/dori/assembly/B6_1/vcf/b61igM.Fg2uaFZ1MF.vcf 
+ 1828  htop
+ 1829  top
+ 1830  less /var/lo
+ 1831  less /var/log
+ 1832  less /var/log/lastlog 
+ 1833  zless /var/log/lastlog 
+ 1834  less /var/crash
+ 1835  ls /var/crash/
+ 1836  ls /var/crash/_usr_bin_udevadm.0.crash 
+ 1837  less /var/crash/_usr_bin_udevadm.0.crash 
+ 1838  sudo less /var/crash/_usr_bin_udevadm.0.crash 
+ 1839  last
+ 1840  htop
+ 1841  ls /scratch1/dori/assembly/B6_1/vcf/
+ 1842  htop
+ 1843  less /storage1/lily/tb-tree/tb-data/dori_edit/2023-12-06/b61igM.ZZZAEc36zT.diff 
+ 1844  less /scratch1/dori/assembly/B6_1/vcf/b61igM.ZZZAEc36zT.vcf 
+ 1845  less /scratch1/dori/assembly/B6_1/vcf/b61igM.ZzJYUvdChX.vcf 
+ 1846  less /scratch1/dori/assembly/B6_1/vcf/b61igM.ZzobTUomr9.vcf 
+ 1847  screen -S dori
+ 1848  screen -S vcfrun
+ 1849  screen -r
+ 1850  htop
+ 1851  top
+ 1852  htop
+ 1853  htop -u lily
+ 1854  screen -r dori
+ 1855  screen -D dori
+ 1856  screen -r dori
+ 1857  cd /storage1/lily/tb-tree/tb-data/dori_edit/2023-12-06/
+ 1858  ls
+ 1859  cd diff
+ 1860  cd diffs
+ 1861  ls -lh
+ 1862  ls -lh | head
+ 1863  screen -r dori
+ 1864  ls -lh | head
+ 1865  screen -r dori
+ 1866  ls -lh | wc -l
+ 1867  ls -lh /scratch1/dori/assembly/B6_1/vcf/
+ 1868  ls -lh /scratch1/dori/assembly/B6_1/vcf/ | wc -l
+ 1869  ls -lh | wc -l
+ 1870  screen -r dori
+ 1871  ls -lh | wc -l
+ 1872  screen -r dori
+ 1873  screen -S taylor 
+ 1874  screen -r dori
+ 1875  less /scratch1/dori/assembly/B6_1/vcf/b61igM.Zz2pwUbTYq.vcf 
+ 1876  less /scratch1/dori/assembly/B6_1/vcf/b61igM.Zv20LFtFow.vcf 
+ 1877  less /scratch1/dori/assembly/B6_1/vcf/b61igM.AI4EqGOmMM.vcf 
+ 1878  less /scratch1/dori/assembly/B6_1/vcf/b61igM.BjkxecIXHI.vcf 
+ 1879  less /scratch1/dori/assembly/B6_1/vcf/b61igM.co7hRLLoCY.vcf 
+ 1880  less /scratch1/dori/assembly/B6_1/vcf/b61igM.dkYxuTHZyF.vcf 
+ 1881  less /scratch1/dori/assembly/B6_1/vcf/b61igM.ZZZAEc36zT.vcf 
+ 1882  ls
+ 1883  pypy 
+ 1884  pypy3
+ 1885  sudo apt  install pypy3
+ 1886  ls
+ 1887  screen -r taylor 
+ 1888  screen -S git
+ 1889  screen -r taylor 
+ 1890  cd ../../../../tb-data/../../taylor
+ 1891  mkdir ../../../../tb-data/../../taylor
+ 1892  cd ../../../../../taylor/
+ 1893  ls
+ 1894  pwd
+ 1895  la
+ 1896  ls
+ 1897  nano tree.nwk
+ 1898  usher-sampled -t tree.nwk -v ERR9874080.vcf.gz -o out.pb
+ 1899  gunzip ERR9874080.vcf.gz 
+ 1900  usher-sampled -t tree.nwk -v ERR9874080.vcf -o out.pb
+ 1901  nano tree.nwk 
+ 1902  usher-sampled -t tree.nwk -v ERR9874080.vcf -o out.pb
+ 1903  nano tree.nwk 
+ 1904  usher-sampled -t tree.nwk -v ERR9874080.vcf -o out.pb
+ 1905  less ERR9874080.vcf 
+ 1906  usher-sampled -t tree.nwk -v /scratch1/dori/assembly/B6_1/vcf/b61igM.ZZZAEc36zT.vcf -o out.pb
+ 1907  ls 
+ 1908  less ERR9874080.vcf 
+ 1909  ls
+ 1910  less ERR9874080.diff 
+ 1911  py ~/scripts/parsevcf/vcf_to_diff_script.py 
+ 1912  -v ERR9874080.vcf -bed aligned_ERR9874080.bed -d .
+ 1913  py ~/scripts/parsevcf/vcf_to_diff_script.py -v ERR9874080.vcf -bed aligned_ERR9874080.bed -d .
+ 1914  less aligned_ERR9874080.bed 
+ 1915  py ~/scripts/parsevcf/vcf_to_diff_script.py -v ERR9874080.vcf -bed aligned_ERR9874080.bed -d .
+ 1916  less aligned_ERR9874080.bed 
+ 1917  tail aligned_ERR9874080.bed 
+ 1918  py ~/scripts/parsevcf/vcf_to_diff_script.py -v ERR9874080.vcf -bed aligned_ERR9874080.bed -d .
+ 1919  ls
+ 1920  less ERR9874080.diff 
+ 1921  py ~/scripts/parsevcf/vcf_to_diff_script.py -v ERR9874080.vcf -bed aligned_ERR9874080.bed -d .
+ 1922  less ERR9874080.log 
+ 1923  py ~/scripts/parsevcf/vcf_to_diff_script.py -v ERR9874080.vcf -bed aligned_ERR9874080.bed -d .
+ 1924  ls 
+ 1925  less aligned_ERR9874080.bed 
+ 1926  less ERR9874080.diff 
+ 1927  ls
+ 1928  less ERR9874076_merged.vcf.gz 
+ 1929  tail ERR9874076_merged.vcf.gz 
+ 1930  ztail ERR9874076_merged.vcf.gz 
+ 1931  zcat ERR9874076_merged.vcf.gz | tail 
+ 1932  ls ../tb-tree/tb-data/alldiffs/L4.1/
+ 1933  cat ../tb-tree/tb-data/alldiffs/L4.1/*
+ 1934  cat ../tb-tree/tb-data/alldiffs/L4.1/* > alldiffs.diff
+ 1935  less alldiffs.diff 
+ 1936  cat alldiffs.diff | grep '>'
+ 1937  la
+ 1938  less ERR9874080.vcf 
+ 1939  less ERR9874080.filt.vcf 
+ 1940  cd ../viridian/
+ 1941  ls
+ 1942  mkdir 20231211
+ 1943  wget https://drive.google.com/drive/folders/15bbog5xc1b08ncjyLDqycPKsigRubvsv?usp=drive_link
+ 1944  ;s
+ 1945  ls
+ 1946  rm 15bbog5xc1b08ncjyLDqycPKsigRubvsv\?usp\=drive_link 
+ 1947  ls
+ 1948  cd 20231211/
+ 1949  ls
+ 1950  unzip Trees.20230905-20231211T230240Z-001.zip 
+ 1951  ls
+ 1952  cd Trees.20230905/
+ 1953  ls
+ 1954  ls -lh
+ 1955  py ~/scripts/viridian_testing/mega_histo.py 
+ 1956  py ~/scripts/viridian_testing/mega_histo.py -d . -of test -r ~/scripts/cov2-selection/NC_045512v2.fa -pb tree.all_viridian.optimized.pb 
+ 1957  ls
+ 1958  py ~/scripts/viridian_testing/mega_histo.py -d . -of test -r ~/scripts/cov2-selection/NC_045512v2.fa -pb tree.all_viridian.optimized.pb 
+ 1959  ls 
+ 1960  py ~/scripts/viridian_testing/mega_histo.py -d . -of test1 -r ~/scripts/cov2-selection/NC_045512v2.fa -pb tree.all_viridian.optimized.pb 
+ 1961  less ~/scripts/cov2-selection/NC_045512v2.fa
+ 1962  wc -c ~/scripts/cov2-selection/NC_045512v2.fa
+ 1963  head filestats.tsv ls
+ 1964  ls
+ 1965  cd ../../../taylor/
+ 1966  ls
+ 1967  less combined_12122023.diff 
+ 1968  cat combined_12122023.diff 
+ 1969  cat combined_12122023.diff | grep '>'
+ 1970  usher-sampled -t tree.nwk --diff combined_12122023.diff --ref candida_auris_reference_ASM301371v2_merged.fna -o out.pb
+ 1971  py ~/scripts/parsevcf/checkfail_multisampfile.py 
+ 1972  py ~/scripts/parsevcf/checkfail_multisampfile.py combined_12122023.diff 
+ 1973  less combined_12122023.diff 
+ 1974  py ~/scripts/parsevcf/checkfail_multisampfile.py combined_12122023.diff 
+ 1975  less >SRR26729015.vc
+ 1976  less SRR26729015.vc
+ 1977  less combined_12122023.diff 
+ 1978  py ~/scripts/parsevcf/checkfail_multisampfile.py combined_12122023.diff 
+ 1979  less combined_12122023.diff 
+ 1980  tail combined_12122023.diff
+ 1981  cat combined_12122023.diff | grep '>' | tail -n 1
+ 1982  py ~/scripts/parsevcf/checkfail_multisampfile.py combined_12122023.diff 
+ 1983  less combined_12122023.diff 
+ 1984  py ~/scripts/parsevcf/checkfail_multisampfile.py combined_12122023.diff > messups
+ 1985  less messups 
+ 1986  less combined_12122023.diff 
+ 1987  less messups 
+ 1988  less combined_12122023.diff 
+ 1989  less messups 
+ 1990  less combined_12122023.diff 
+ 1991  less messups 
+ 1992  less combined_12122023.diff 
+ 1993  py ~/scripts/parsevcf/checkfail_multisampfile.py combined_12122023.diff 
+ 1994  cd /storage1/lily/viridian/20231211/Trees.20230905/
+ 1995  ls
+ 1996  ls 
+ 1997  matUtils summary -m tree.intersection.gb.optimized.pb 
+ 1998  matUtils summary -i tree.intersection.gb.optimized.pb -m int.gb.opt.muts.txt 
+ 1999  less int.gb.opt.muts.txt 
+ 2000  matUtils summary -i tree.intersection.viridian.optimized.pb -m int.vir.opt.muts.txt 
+ 2001  py ~/scripts/viridian_testing/xy_scatterplot.py 
+ 2002  py ~/scripts/viridian_testing/xy_scatterplot.py -d . -of vir_gb_opt -r ~/scripts/cov2-selection/NC_045512v2.fa -m1 tree.intersection.viridian.optimized.pb -m2 tree.intersection.gb.optimized.pb 
+ 2003  py ~/scripts/viridian_testing/xy_scatterplot.py -d . -of vir_gb_opt -r ~/scripts/cov2-selection/NC_045512v2.fa -m1 int.vir.opt.muts.txt -m2 int.gb.opt.muts.txt
+ 2004  cp ~/scripts/viridian_testing/xy_scatterplot.py ~/scripts/viridian_testing/xy_scatterplot_manuscript.py
+ 2005  py ~/scripts/viridian_testing/xy_scatterplot_manuscript.py -d . -of vir_gb_opt -r ~/scripts/cov2-selection/NC_045512v2.fa -m1 int.vir.opt.muts.txt -m2 int.gb.opt.muts.txt
+ 2006  ls
+ 2007  py ~/scripts/viridian_testing/xy_scatterplot_manuscript.py -d . -of vir_gb_opt -r ~/scripts/cov2-selection/NC_045512v2.fa -m1 int.vir.opt.muts.txt -m2 int.gb.opt.muts.txt
+ 2008  ls
+ 2009  py ~/scripts/viridian_testing/xy_scatterplot_manuscript.py -d . -of vir_gb_opt -r ~/scripts/cov2-selection/NC_045512v2.fa -m1 int.vir.opt.muts.txt -m2 int.gb.opt.muts.txt
+ 2010  ls
+ 2011  py ~/scripts/viridian_testing/xy_scatterplot_manuscript.py -d . -of vir_gb_opt_int -r ~/scripts/cov2-selection/NC_045512v2.fa -m1 int.vir.opt.muts.txt -m2 int.gb.opt.muts.txt
+ 2012  py ~/scripts/parsevcf/checkfail_multisampfile.py combined_12122023.diff > messups
+ 2013  py ~/scripts/viridian_testing/xy_scatterplot_manuscript.py -d . -of vir_gb_opt_int -r ~/scripts/cov2-selection/NC_045512v2.fa -m1 int.vir.opt.muts.txt -m2 int.gb.opt.muts.txt
+ 2014  py ~/scripts/viridian_testing/xy_scatterplot_manuscript.py -d . -of vir_gb_opt_int1 -r ~/scripts/cov2-selection/NC_045512v2.fa -m1 int.vir.opt.muts.txt -m2 int.gb.opt.muts.txt
+ 2015  ls ../
+ 2016  ls -la ../
+ 2017  ls
+ 2018  ls ../
+ 2019  gunzip ../run_metadata.tsv.gz 
+ 2020  cd ../
+ 2021  ls
+ 2022  less run_metadata.tsv 
+ 2023  ls 
+ 2024  ls Trees.20230905
+ 2025  less Trees.20230905/tree.intersection.viridian.optimized.pb 
+ 2026  ls
+ 2027  less run_metadata.tsv 
+ 2028  sed -n 3,5 run_metadata.tsv 
+ 2029  sed -h 
+ 2030  cut  -n 3,5 run_metadata.tsv 
+ 2031  cut
+ 2032  cut -h
+ 2033  cut --help
+ 2034  cut -f 3,5 run_metadata.tsv 
+ 2035  cut -f 3,6 run_metadata.tsv 
+ 2036  cut -f 3,6 run_metadata.tsv > intrduce_metadata.tsv
+ 2037* ma
+ 2038  matUtils introduce -i Trees.20230905/tree.intersection.viridian.optimized.pb 
+ 2039  matUtils introduce -i Trees.20230905/tree.intersection.viridian.optimized.pb -s intrduce_metadata.tsv 
+ 2040  ls
+ 2041  ls 
+ 2042  matUtils introduce 
+ 2043  matUtils introduce -i Trees.20230905/tree.intersection.viridian.optimized.pb -s intrduce_metadata.tsv -o introductouput
+ 2044  ls
+ 2045  less introductouput 
+ 2046  less run_metadata.tsv 
+ 2047  cut -f 4,6 run_metadata.tsv 
+ 2048  cut -f 4,6 run_metadata.tsv > intrduce_metadata.tsv 
+ 2049  matUtils introduce -i Trees.20230905/tree.intersection.viridian.optimized.pb -s intrduce_metadata.tsv -o introductouput
+ 2050  ls
+ 2051  ls introductouput 
+ 2052  less introductouput 
+ 2053  ls 
+ 2054  tail introductouput 
+ 2055  mv introductouput vir_int_introduce_out
+ 2056  matUtils introduce -i Trees.20230905/tree.intersection.gb.optimized.pb -s intrduce_metadata.tsv -o gb.int.introduce.output
+ 2057  ls
+ 2058  less gb.int.introduce.output 
+ 2059  less intrduce_metadata.tsv 
+ 2060  ls
+ 2061  less run_metadata.tsv 
+ 2062  less vir_int_introduce_out 
+ 2063  hist
+ 2064  history
+ 2065  less intrduce_metadata.tsv 
+ 2066  less Trees.20230905/tree.intersection.gb.optimized.pb 
+ 2067  usher_to_taxonium -i Trees.20230905/tree.intersection.gb.optimized.pb -o Trees.20230905/tree.intersection.gb.optimized.jsonl.g
+ 2068* ls q
+ 2069  mv Trees.20230905/tree.intersection.gb.optimized.jsonl.g Trees.20230905/tree.intersection.gb.optimized.jsonl.gz
+ 2070  less Trees.20230905/tree.intersection.gb.optimized.jsonl.gz 
+ 2071  less Trees.20230905/tree.intersection.gb.optimized.pb 
+ 2072  usher_to_taxonium -i Trees.20230905/tree.intersection.gb.optimized.pb -o Trees.20230905/tree.intersection.gb.optimized.jsonl.gz
+ 2073  sed 's/\..*:/:/' Trees.20230905/tree.intersection.viridian.optimized.pb 
+ 2074  matUtils extract -i Trees.20230905/tree.intersection.gb.optimized.pb -t Trees.20230905/tree.intersection.gb.optimized.nwk
+ 2075  ls 
+ 2076  sed 's/\..*:/:/' Trees.20230905/tree.intersection.gb.optimized.nwk 
+ 2077  less Trees.20230905/tree.intersection.gb.optimized.nwk 
+ 2078  sed 's/\..*:/:/' Trees.20230905/tree.intersection.gb.optimized.pb 
+ 2079  ls
+ 2080  matUtils introduce
+ 2081  screen -r viridian
+ 2082  htop
+ 2083  screen -r viridian
+ 2084  screen -D 3796246.viridian
+ 2085  screen -D 3847561.viridian 
+ 2086  hist
+ 2087* 
+ 2088  matUtils introduce
+ 2089  matUtils introduce -i Trees.20230905/tree.intersection.gb.unoptimized.pb -s gb_introduce.tsv -a -o gb.intersect.introduce.addinfo
+ 2090  ls gb_introduce.tsv 
+ 2091  less gb_introduce.tsv 
+ 2092  ls
+ 2093  ls Trees.20230905
+ 2094  hist
+ 2095  history
+ 2096  less ~/scripts/usefulcmds/20240103_filejoining-awk 
+ 2097  matUtils introduce -i Trees.20230905/tree.intersection.gb.unoptimized.pb -s gb_introduce_file -a -o gb.intersect.introduce.addinfo
+ 2098  matUtils introduce -i Trees.20230905/tree.intersection.gb.unoptimized.pb -s gb_introduce_file -u gb.intersect.introduce.addinfo
+ 2099  matUtils introduce -i Trees.20230905/tree.intersection.gb.unoptimized.pb -s gb_introduce_file -u gb.intersect.introduce.addinfo2
+ 2100  ls
+ 2101  matUtils introduce -i Trees.20230905/tree.intersection.gb.optimized.pb -s gb_introduce_file -u gb.intersect.introduce.addinfo3
+ 2102  wc -l gb.intersect.introduce.addinfo3
+ 2103  matUtils introduce -i Trees.20230905/tree.intersection.gb.optimized.pb -s gb_introduce_file -u gb.intersect.introduce.addinfo4
+ 2104  wc -l gb.intersect.introduce.addinfo4
+ 2105  matUtils introduce -i Trees.20230905/tree.intersection.viridian.optimized.pb -s intrduce_metadata.tsv -u vir.intersect.introduce.addinfo
+ 2106  ls 
+ 2107  less vir.intersect.introduce.addinfo 
+ 2108  wc -l vir.intersect.introduce.addinfo 
+ 2109  head -n 1 vir.intersect.introduce.addinfo 
+ 2110  cut -f 11 vir.intersect.introduce.addinfo 
+ 2111  head -n 1 vir.intersect.introduce.addinfo 
+ 2112  cut -f 6 vir.intersect.introduce.addinfo 
+ 2113  lz
+ 2114  lx
+ 2115  lz
+ 2116  ls
+ 2117  head -n 1 gb.intersect.introduce.addinfo
+ 2118  head  gb.intersect.introduce.addinfo
+ 2119  wc -l gb.intersect.introduce.addinfo
+ 2120  wc -l vir.intersect.introduce.addinfo
+ 2121  head -n 2 vir.intersect.introduce.addinfo 
+ 2122  head -n 1 vir.intersect.introduce.addinfo 
+ 2123  ls
+ 2124  less gb.int.introduce.output 
+ 2125  rm gb.int.introduce.output 
+ 2126  less gb_introduce.tsv 
+ 2127  head -n 2 vir.intersect.introduce.addinfo 
+ 2128  cat vir.intersect.introduce.addinfo 
+ 2129  matUtils introduce -i Trees.20230905/tree.intersection.viridian.optimized.pb -s intrduce_metadata.tsv -o vir.intersect.introduce.final
+ 2130  ls 
+ 2131  wc -l gb.intersect.introduce.addinfo4
+ 2132  wc -l vir.intersect.introduce.addinfo
+ 2133  mv gb.intersect.introduce.addinfo gb.intersect.introduce.clades.final
+ 2134  mv vir.intersect.introduce.addinfo vir.intersect.introduce.clades.final
+ 2135  less gb_introduce.tsv 
+ 2136  head -n 1 gb.intersect.introduce.clades.final 
+ 2137  awk '{print $10}' spanish_introductions.tsv | sort | uniq -c | sort -r | head -25
+ 2138  awk '{print $10}' gb.intersect.introduce.clades.final | sort | uniq -c | sort -r | head -25
+ 2139  awk -F '\t' '{print $10}' gb.intersect.introduce.clades.final | sort | uniq -c | sort -r | head -25
+ 2140  awk -F '\t' '{print $10}' vir.intersect.introduce.clades.final | sort | uniq -c | sort -r | head -25
+ 2141  awk -F '\t' '{print $10}' vir.intersect.introduce.clades.final | sort | uniq -c 
+ 2142  awk -F '\t' '{print $10}' vir.intersect.introduce.clades.final
+ 2143  awk -F '\t' '{print $10}' vir.intersect.introduce.clades.final | sort
+ 2144  awk -F '\t' '{print $10}' vir.intersect.introduce.clades.final | sort | uniq -c
+ 2145  awk -F '\t' '{print $10}' vir.intersect.introduce.clades.final | sort | uniq -c | sort -n -r
+ 2146  tail -n +2 vir.intersect.introduce.clades.final |  awk -F '\t' '{print $10}'  | sort | uniq -c | sort -n -r
+ 2147  tail -n +2 vir.intersect.introduce.clades.final |  awk -F '\t' '{print $10}'  | sort | uniq -c | sort -n -r > vir.intersect.introduce.clades.intros
+ 2148  tail -n +2 gb.intersect.introduce.clades.final |  awk -F '\t' '{print $10}'  | sort | uniq -c | sort -n -r 
+ 2149  tail -n +2 gb.intersect.introduce.clades.final |  awk -F '\t' '{print $10}'  | sort | uniq -c | sort -k 2 -n -r 
+ 2150  tail -n +2 gb.intersect.introduce.clades.final |  awk -F '\t' '{print $10}'  | sort | uniq -c | sort -k 2
+ 2151  tail -n +2 gb.intersect.introduce.clades.final |  awk -F '\t' '{print $10}'  | sort | uniq -c | sort -k 2 > gb.intersect.introduce.intros.alpha
+ 2152  tail -n +2 vir.intersect.introduce.clades.final |  awk -F '\t' '{print $10}'  | sort | uniq -c | sort -k 2 > vir.intersect.introduce.intros.alpha
+ 2153  less vir.intersect.introduce.intros.alpha 
+ 2154  cp ~/scripts/viridian_testing/qqplot.py ~/scripts/viridian_testing/lineplot.py
+ 2155  ls
+ 2156  cat *.alphas
+ 2157  cat *.alpha
+ 2158  cat vir.intersect.introduce.intros.alpha 
+ 2159  cp ~/scripts/viridian_testing/xy_scatterplot.py ~/scripts/viridian_testing/xy_intros.py
+ 2160  cat *.alphas
+ 2161  cat *.alpha
+ 2162  py ~/scripts/viridian_testing/xy_intros.py 
+ 2163  py ~/scripts/viridian_testing/xy_intros.py -d . -of test -m1 vir.intersect.introduce.intros.alpha -m2 gb.intersect.introduce.intros.alpha 
+ 2164  py ~/scripts/viridian_testing/xy_scatterplot_manuscript.py 
+ 2165  py ~/scripts/viridian_testing/xy_scatterplot_manuscript.py -d . -of 240108_plot -r ~/scripts/cov2-selection/NC_045512v2.fa -m1 Trees.20230905/int.vir.opt.muts.txt -m2 Trees.20230905/int.gb.opt.muts.txt 
+ 2166  la
+ 2167  py ~/scripts/viridian_testing/xy_scatterplot_manuscript.py -d . -of 240108_plot -r ~/scripts/cov2-selection/NC_045512v2.fa -m1 Trees.20230905/int.vir.opt.muts.txt -m2 Trees.20230905/int.gb.opt.muts.txt 
+ 2168  py ~/scripts/viridian_testing/qqplot.py -d . -of 240108_qqplot -r ~/scripts/cov2-selection/NC_045512v2.fa -m1 Trees.20230905/int.vir.opt.muts.txt -m2 Trees.20230905/int.gb.opt.muts.txt 
+ 2169  py ~/scripts/viridian_testing/zamplot.py -d . -of 240108_qqplot -r ~/scripts/cov2-selection/NC_045512v2.fa -m1 Trees.20230905/int.vir.opt.muts.txt -m2 Trees.20230905/int.gb.opt.muts.txt 
+ 2170  ls
+ 2171  less *al*
+ 2172  less *alpha
+ 2173  cat *alpha
+ 2174  history
+ 2175  history | grep join
+ 2176  less ~/scripts/usefulcmds/20240103_filejoining-awk 
+ 2177  join -t $'\t' -1 2 -2 2 vir.intersect.introduce.intros.alpha gb.intersect.introduce.intros.alpha 
+ 2178  join -t '\t' -1 2 -2 2 vir.intersect.introduce.intros.alpha gb.intersect.introduce.intros.alpha 
+ 2179  join -t \t -1 2 -2 2 vir.intersect.introduce.intros.alpha gb.intersect.introduce.intros.alpha 
+ 2180  join -1 2 -2 2 vir.intersect.introduce.intros.alpha gb.intersect.introduce.intros.alpha 
+ 2181  histroy 
+ 2182  history
+ 2183  awk -F '\t' '{print $10}' /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | sort | uniq -c 
+ 2184  head vir.intersect.introduce.clades.final 
+ 2185  head -n 1 vir.intersect.introduce.clades.final 
+ 2186  cat vir.intersect.introduce.clades.final | cut -f1,2
+ 2187  cat vir.intersect.introduce.clades.final | cut -f1,2 | head
+ 2188  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c
+ 2189  head vir.intersect.introduce.intros.alpha 
+ 2190  cat vir.intersect.introduce.intros.alpha 
+ 2191* 
+ 2192* ls /
+ 2193  ls /
+ 2194  ls /bin
+ 2195  ls /usr
+ 2196  ls /usr/bin
+ 2197  ls /opt
+ 2198  ls /opt/containerd/
+ 2199  sudo ls /opt/containerd/
+ 2200  sudo ls /opt/containerd/bin
+ 2201  sudo ls /opt/containerd/lib
+ 2202  brew
+ 2203  ls /usr/local
+ 2204  ls /usr/
+ 2205  ls /usr/local/bin
+ 2206  ls
+ 2207  ls 
+ 2208  ls
+ 2209  cp /storage1/lily/viridian/20231211/*.clades.final ~/scripts/viridian-paper
+ 2210  ls
+ 2211  less edit_file.py 
+ 2212  ls *py
+ 2213  py ~/scripts/viridian-paper
+ 2214  py ~/scripts/viridian_testing/xy_intros.py 
+ 2215  less vir.intersect.introduce.clades.intros 
+ 2216  ls
+ 2217  cd ../
+ 2218  ls
+ 2219  mkdir 20240129
+ 2220  cd 20240129/
+ 2221  ld
+ 2222  ls
+ 2223  rm *vcf
+ 2224  ls
+ 2225  unzip Dataset.v03-20240129T185651Z-001.zip 
+ 2226  ls
+ 2227  cd Dataset.v03/
+ 2228  ls
+ 2229  ls 
+ 2230  py ~/scripts/viridian-paper
+ 2231  ls
+ 2232  ls 
+ 2233  mkdir figure_data
+ 2234  ls
+ 2235  matUtils summary -i Trees.20240112/tree.intersection.gb.optimized.pb -m figure_data/tree.intersection.gb.optimized.mutations.tsv
+ 2236  matUtils
+ 2237  matUtils summary
+ 2238  matUtils summary -i Trees.20240112/tree.intersection.gb.optimized.pb 
+ 2239  less Trees.20240112/tree.intersection.gb.optimized.pb 
+ 2240  matUtils summary -i Trees.20240112/tree.intersection.gb.optimized.pb -m figure_data/tree.intersection.gb.optimized.mutations.tsv
+ 2241  matUtils summary -i Trees.20240112/tree.intersection.viridian.optimized.pb -m figure_data/tree.intersection.viridian.optimized.mutations.tsv
+ 2242  ls
+ 2243  py ~/scripts/viridian-paper/code/xy_scatterplot_manuscript.py 
+ 2244  mkdir figures
+ 2245  py ~/scripts/viridian-paper/code/xy_scatterplot_manuscript.py 
+ 2246  py ~/scripts/viridian-paper/code/xy_scatterplot_manuscript.py -d figures/ 
+ 2247  py ~/scripts/viridian-paper/code/xy_scatterplot_manuscript.py -d figures/ -of xy_scatter -r ~/scripts/viridian-paper/code/figure_data/NC_045512v2.fa 
+ 2248  py ~/scripts/viridian-paper/code/xy_scatterplot_manuscript.py -d figures/ -of xy_scatter -r ~/scripts/viridian-paper/code/figure_data/NC_045512v2.fa -vir figure_data/tree.intersection.viridian.optimized.mutations.tsv -gb figure_data/tree.intersection.gb.optimized.mutations.tsv 
+ 2249  py ~/scripts/viridian-paper/code/reversionthreshold.py  figures/ -of xy_scatter -r ~/scripts/viridian-paper/code/figure_data/NC_045512v2.fa -vir figure_data/tree.intersection.viridian.optimized.mutations.tsv -gb figure_data/tree.intersection.gb.optimized.mutations.tsv 
+ 2250  py ~/scripts/viridian-paper/code/reversionthreshold.py -d figures/ -of reversionthreshold -r ~/scripts/viridian-paper/code/figure_data/NC_045512v2.fa -vir figure_data/tree.intersection.viridian.optimized.mutations.tsv -gb figure_data/tree.intersection.gb.optimized.mutations.tsv 
+ 2251  py ~/scripts/viridian-paper/code/clade_comparison_figure.py 
+ 2252  py ~/scripts/viridian-paper/code/clade_comparison.py
+ 2253  matUtils introduce
+ 2254  ls 
+ 2255  ls run_metadata.tsv.gz 
+ 2256  less run_metadata.tsv.gz 
+ 2257  less -S run_metadata.tsv.gz 
+ 2258  cut -f2,6 run_metadata.tsv.gz 
+ 2259  cat run_metadata.tsv.gz 
+ 2260  zcat run_metadata.tsv.gz 
+ 2261  zcat run_metadata.tsv.gz | cut -f2,6
+ 2262  zcat run_metadata.tsv.gz | cut -f2,6 > figure_data/introducemetadata.tsv
+ 2263  matUtils introduce -i Trees.20240112/tree.intersection.viridian.optimized.pb -s figure_data/introducemetadata.tsv 
+ 2264  matUtils introduce -i Trees.20240112/tree.intersection.viridian.optimized.pb -s figure_data/introducemetadata.tsv -o figure_data/tree.intersection.viridian.optimized.intros.tsv
+ 2265  ls
+ 2266  less figure_data/tree.intersection.viridian.optimized.intros.tsv 
+ 2267  matUtils introduce -i Trees.20240112/tree.intersection.gb.optimized.pb -s figure_data/introducemetadata.tsv -o figure_data/tree.intersection.gb.optimized.intros.tsv
+ 2268  ls
+ 2269  less figure_data/tree.intersection.gb.optimized.intros.tsv 
+ 2270  less figure_data/tree.intersection.viridian.optimized.intros.tsv 
+ 2271  less Trees.20240112/tree.intersection.gb.optimized.pb 
+ 2272  zcat run_metadata.tsv.gz 
+ 2273  zcat run_metadata.tsv.gz |head
+ 2274  zcat run_metadata.tsv.gz | cut -f4,6 > figure_data/introducemetadata.tsv
+ 2275  less Trees.20240112/tree.intersection.viridian.optimized.pb 
+ 2276  matUtils introduce -i Trees.20240112/tree.intersection.viridian.optimized.pb -s figure_data/introducemetadata.tsv -o figure_data/tree.intersection.viridian.optimized.intros.tsv
+ 2277  less figure_data/tree.intersection.viridian.optimized.intros.tsv 
+ 2278  less figure_data/introducemetadata.tsv 
+ 2279  less Trees.20240112/tree.intersection.gb.optimized.pb 
+ 2280  less ~/scripts/viridian-paper/code/oldcmds 
+ 2281  cat vir.intersect.introduce.intros.alpha | perl -pe 's/^\s+//' | perl -pe 's/ /\t/g' | awk {print $1 "\t" $2
+ 2282  cat figure_data/introducemetadata.tsv 
+ 2283  cat Trees.20240112/tree.intersection.gb.optimized.pb 
+ 2284  cat Trees.20240112/tree.intersection.gb.optimized.pb | perl -pe 's/^\s+//'
+ 2285  matUtils summary 
+ 2286  matUtils summary -i Trees.20240112/tree.intersection.gb.optimized.pb -s figure_data/gbsamplenames.tsv
+ 2287  less figure_data/gbsamplenames.tsv 
+ 2288  cat figure_data/gbsamplenames.tsv 
+ 2289  cat figure_data/gbsamplenames.tsv | cut -f1
+ 2290  cat figure_data/gbsamplenames.tsv | cut -f1 | perl -pe 's/^\s+//' | perl -pe 's/ /\t/g' | awk {print $1 "\t" $2
+ 2291  cat figure_data/gbsamplenames.tsv | cut -f1 | perl -pe 's/^\s+//' | perl -pe 's/ /\t/g' | awk {print $1 "\t" $2}
+ 2292  cat figure_data/gbsamplenames.tsv | cut -f1 | perl -pe 's/^\s+//' | perl -pe 's/ /\t/g' | awk '{print $1 "\t" $2}'
+ 2293  cat figure_data/gbsamplenames.tsv | cut -f1 | perl -pe 's/^\s+//' | 
+ 2294  cat figure_data/gbsamplenames.tsv | cut -f1 | perl -pe 's/^\s+//' 
+ 2295  less ~/scripts/viridian-paper/code/oldcmds 
+ 2296  ls 
+ 2297  ls figure_data/
+ 2298  ls
+ 2299  nano README.md
+ 2300  history
+ 2301  nano README.md 
+ 2302  less ~/scripts/usefulcmds/20240103_filejoining-awk
+ 2303  l
+ 2304  ls
+ 2305  matUtils extract -i Trees.20240112/tree.intersection.gb.optimized.pb -t figure_data/tree.intersection.gb.optimized.nwk
+ 2306  cat figure_data/tree.intersection.gb.optimized.nwk | perl -pe 's/,/\n/g' | sed 's/:.*$//' | perl -pe 's/\(//g'
+ 2307  cat figure_data/tree.intersection.gb.optimized.nwk | perl -pe 's/,/\n/g' 
+ 2308  cat figure_data/tree.intersection.gb.optimized.nwk | perl -pe 's/,/\n/g' | sed 's/:.*$//' | perl -pe 's/\(//g' | awk -F'.' '{new_column = $1; print new_column '\t' print $0 }' 
+ 2309  cat figure_data/tree.intersection.gb.optimized.nwk | perl -pe 's/,/\n/g' | sed 's/:.*$//' | perl -pe 's/\(//g' | awk -F'.' '{new_column = $1; print new_column "\t" print $0 }' 
+ 2310  cat figure_data/tree.intersection.gb.optimized.nwk | perl -pe 's/,/\n/g' | sed 's/:.*$//' | perl -pe 's/\(//g' | awk -F'.' '{new_column = $1; print new_column "\t" $0 }'
+ 2311  cat figure_data/tree.intersection.gb.optimized.nwk | perl -pe 's/,/\n/g' | sed 's/:.*$//' | perl -pe 's/\(//g' | awk -F'.' '{new_column = $1; print new_column "\t" $0 }' > figure_data/gbsamples.tsv
+ 2312  nano README.md 
+ 2313  join -t $'\t' -1 1 -2 1 <(sort -k1,1 figure_data/introducemetadata.tsv) <(sort -k1,1 figure_data/gbsamples.tsv) | awk -F '\t' '{print $3 "\t" $2}'
+ 2314  nano README.md 
+ 2315  join -t $'\t' -1 1 -2 1 <(sort -k1,1 figure_data/introducemetadata.tsv) <(sort -k1,1 figure_data/gbsamples.tsv) | awk -F '\t' '{print $3 "\t" $2}'
+ 2316  join -t $'\t' -1 1 -2 1 <(sort -k1,1 figure_data/introducemetadata.tsv) <(sort -k1,1 figure_data/gbsamples.tsv) | awk -F '\t' '{print $3 "\t" $2}' > gbmetadata.tsv
+ 2317  matUtils introduce -i Trees.20240112/tree.intersection.gb.optimized.pb -s gbmetadata.tsv -o figure_data/tree.intersection.gb.optimized.intros.tsv
+ 2318  less figure_data/tree.intersection.gb.optimized.intros.tsv 
+ 2319  py ~/scripts/viridian-paper/code/clade_comparison.py 
+ 2320  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c
+ 2321  cat figure_data/tree.intersection.gb.optimized.intros.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c
+ 2322  less figure_data/tree.intersection.gb.optimized.intros.tsv 
+ 2323  matUtils introduce
+ 2324  matUtils introduce -i Trees.20240112/tree.intersection.gb.optimized.pb -s gbmetadata.tsv -u figure_data/tree.intersection.gb.optimized.intros_clades.tsv
+ 2325  cat figure_data/tree.intersection.gb.optimized.intros_clades.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c
+ 2326  cat figure_data/tree.intersection.gb.optimized.intros_clades.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c > figure_data/gb_counts.tsv
+ 2327  less ~/scripts/usefulcmds/20240103_filejoining-awk 
+ 2328  cat figure_data/tree.intersection.gb.optimized.intros_clades.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c 
+ 2329  cat figure_data/tree.intersection.gb.optimized.intros_clades.tsv | cut -f1,2 
+ 2330  cat figure_data/tree.intersection.gb.optimized.intros_clades.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' 
+ 2331  cat figure_data/tree.intersection.gb.optimized.intros_clades.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c 
+ 2332  cat figure_data/tree.intersection.gb.optimized.intros_clades.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' 
+ 2333  less ~/scripts/usefulcmds/20240103_filejoining-awk 
+ 2334  less ~/scripts/viridian-paper/code/oldcmds 
+ 2335  cat figure_data/tree.intersection.gb.optimized.intros_clades.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c 
+ 2336  cat figure_data/tree.intersection.gb.optimized.intros_clades.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c > gbcounts.tsv
+ 2337  matUtils introduce -i Trees.20240112/tree.intersection.viridian.optimized.pb -s figure_data/introducemetadata.tsv -u figure_data/tree.intersection.viridian.optimized.intros_clades.tsv
+ 2338  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c > gbcounts.tsv
+ 2339  cat figure_data/tree.intersection.gb.optimized.intros_clades.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c > gbcounts.tsv
+ 2340  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c > vircounts.tsv
+ 2341  less vircounts.tsv 
+ 2342  py ~/scripts/viridian-paper/code/clade_comparison.p
+ 2343  py ~/scripts/viridian-paper/code/clade_comparison.py
+ 2344  la
+ 2345  py ~/scripts/viridian-paper/code/clade_comparison.py
+ 2346  ls
+ 2347  ls 
+ 2348  ls figure_data/
+ 2349  py ~/scripts/viridian-paper/code/clade_comparison_figure.py 
+ 2350  ls 
+ 2351  ls figure_data/
+ 2352  py ~/scripts/viridian-paper/code/clade_comparison_figure.py 
+ 2353  ls figure_data/
+ 2354  py ~/scripts/viridian-paper/code/clade_comparison_figure.py 
+ 2355  less figure_data/gb.counts.tsv 
+ 2356  history
+ 2357  less ~/scripts/viridian-paper/code/oldcmds 
+ 2358  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c | sed -E 's/^ *//; s/ /\t/'
+ 2359  nano README.md 
+ 2360  py ~/scripts/viridian-paper/code/clade_comparison_figure.py 
+ 2361  less figure_data/gb.counts.tsv 
+ 2362  py ~/scripts/viridian-paper/code/clade_comparison_figure.py 
+ 2363  less ~/scripts/viridian-paper/code/figure_data/gb.counts.txt 
+ 2364  less figure_data/tree.intersection.viridian.optimized.intros.tsv 
+ 2365  less figure_data/tree.intersection.viridian.optimized.intros_clades.tsv 
+ 2366  "cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c
+ 2367  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10 |
+ 2368  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10 
+ 2369  less figure_data/tree.intersection.viridian.optimized.intros_clades.tsv 
+ 2370  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10 | head
+ 2371  less figure_data/tree.intersection.viridian.optimized.intros_clades.tsv 
+ 2372  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10,2 | head
+ 2373  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10,2 | awk -F '\t' {print $10 '\t' $2}
+ 2374  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10,2 | awk -F '\t' "{print $10 '\t' $2}"
+ 2375  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10,2 | awk -F '\t' "{print $10 \t $2}"
+ 2376  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10,2 | awk -F '\t' "{print $10 '\t' $2}"
+ 2377  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10,2 | awk -F '\t' "{print $10, '\t', $2}"
+ 2378  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10,2 | awk -F'\t' '{print $10, "\t", $2}'
+ 2379* cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10,2 |
+ 2380* cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10,2 |
+ 2381  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}'
+ 2382  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}' | sort 
+ 2383  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}' | sort -r
+ 2384  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}' | uniq -c
+ 2385  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}
+ 2386  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10,2
+ 2387  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10,2 | uniq -c
+ 2388  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f2,10
+ 2389  less ~/scripts/viridian-paper/code/figure_data/gb.counts.txt 
+ 2390* cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f2,10 | awk 
+ 2391  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}' 
+ 2392  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}' > testgbcount
+ 2393  less testgbcount 
+ 2394  diff ~/scripts/viridian-paper/code/figure_data/gb.counts.txt <(sort -k1,1 testgbcount )
+ 2395  tail ~/scripts/viridian-paper/code/figure_data/gb.counts.txt 
+ 2396  grep 'Zimbabwe' ~/scripts/viridian-paper/code/figure_data/gb.counts.txt 
+ 2397  less ~/scripts/viridian-paper/code/figure_data/
+ 2398  less ~/scripts/viridian-paper/code/figure_data/gb.counts.txt 
+ 2399  cat figure_data/tree.intersection.viridian.optimized.intros_clades.tsv 
+ 2400  cat ~/scripts/viridian-paper/code/figure_data/vir.counts.tx | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}'
+ 2401  cat ~/scripts/viridian-paper/code/figure_data/vir.counts.txt
+ 2402  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final 
+ 2403  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}'
+ 2404  diff <(cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}') ~/scripts/viridian-paper/code/figure_data/vir.counts.txt 
+ 2405  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}'
+ 2406  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}' > testgb
+ 2407  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}' > testvir
+ 2408  less testvir
+ 2409  less ~/scripts/viridian-paper/code/figure_data/vir.counts.txt 
+ 2410  less testvir
+ 2411  diff testvir ~/scripts/viridian-paper/code/figure_data/vir.counts.txt 
+ 2412  wc -l ~/scripts/viridian-paper/code/figure_data/vir.counts.txt 
+ 2413  wc -l testvir 
+ 2414  less testvir
+ 2415  less ~/scripts/viridian-paper/code/figure_data/vir.counts.txt 
+ 2416  less testvir
+ 2417  tail testvir
+ 2418  tail ~/scripts/viridian-paper/code/figure_data/vir.counts.txt 
+ 2419  tail -n 20 ~/scripts/viridian-paper/code/figure_data/vir.counts.txt 
+ 2420  tail -n 20 testvir
+ 2421* head -n 20 testv
+ 2422  head -n 20 ~/scripts/viridian-paper/code/figure_data/vir.counts.txt 
+ 2423  py ~/scripts/viridian-paper/code/clade_comparison_figure.py 
+ 2424  ls 
+ 2425  ls figure_data/
+ 2426  py ~/scripts/viridian-paper/code/clade_comparison_figure.py 
+ 2427  ls ~/scripts/viridian-paper/code/figure
+ 2428  ls ~/scripts/viridian-paper/code/figure_data/
+ 2429  less ~/scripts/viridian-paper/code/figure_data/intro_counts.tsv 
+ 2430  less ~/scripts/viridian-paper/code/figure_data/vir.counts.txt 
+ 2431  less ~/scripts/viridian-paper/code/figure_data/gb.counts.txt 
+ 2432  py ~/scripts/viridian-paper/code/clade_comparison_figure.py 
+ 2433  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}' 
+ 2434  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}' | s/ //g
+ 2435  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}' |sed 's/ //g'
+ 2436  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}' | sed 's/ //g' > testvir
+ 2437  diff testvir ~/scripts/viridian-paper/code/figure_data/vir.counts.txt 
+ 2438  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}' | sed 's/ \t //g'  
+ 2439  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}' | sed 's/ \t /\t/g'  
+ 2440  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f10,2 | awk -F'\t' '{print $2, "\t", $1}' | sed 's/ \t /\t/g'  > testvir
+ 2441  diff testvir ~/scripts/viridian-paper/code/figure_data/vir.counts.txt 
+ 2442  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f10,2 | awk -F'\t' '{print $2,"\t",$1}' > testvir1
+ 2443  less testvir1
+ 2444  diff testvir testvir1
+ 2445  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f10,2 | awk -F'\t' '{print $2,"\t",$1}'
+ 2446  diff testvir1 ~/scripts/viridian-paper/code/figure_data/vir.counts.txt 
+ 2447  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f10,2 | awk -F'\t' '{print $2,"\t",$1}' | sed 's/ \t /\t/g'  > testvir2
+ 2448  diff testvir testvir2
+ 2449  diff testvir1 testvir2
+ 2450  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f10,2 
+ 2451  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f10,2 | awk -F'\t' OFS='\t' '{print $2,$1}'  > testvir2
+ 2452  cat /storage1/lily/viridian/20231211/vir.intersect.introduce.clades.final | cut -f10,2 | awk -F'\t' '{print $2 "\t" $1}'  > testvir2
+ 2453  diff testvir1 testvir2
+ 2454  diff testvir testvir2
+ 2455  py ~/scripts/viridian-paper/code/clade_comparison_figure.py 
+ 2456  ls
+ 2457  ls 
+ 2458  ls
+ 2459  cd ../
+ 2460  ls
+ 2461  cd ../
+ 2462  ls
+ 2463  mkdir 20240220
+ 2464  cd 20240220/
+ 2465  ls
+ 2466  pwd
+ 2467  ls
+ 2468  cd ../
+ 2469  ls
+ 2470  cd 20240220/
+ 2471  ls
+ 2472  ls -lah
+ 2473  ls
+ 2474  ls -lah
+ 2475  ls
+ 2476  unzip Dataset.v04-20240220T204602Z-001.zip 
+ 2477  ls -lh
+ 2478  ls -lh Dataset.v04/
+ 2479  ls
+ 2480  py ~/scripts/viridian-paper
+ 2481  py ~/scripts/viridian-paper/code/xy_scatterplot_manuscript.py 
+ 2482  conda install matplotlib
+ 2483  py ~/scripts/viridian-paper/code/xy_scatterplot_manuscript.py 
+ 2484  matUtils 
+ 2485  matUtils summary 
+ 2486  matUtils summary -i Dataset.v04/Trees/tree.all_viridian.optimized.pb 
+ 2487  matUtils summary -i Dataset.v04/Trees/tree.all_viridian.optimized.pb -m tree.all_viridian.opt.mutations.tsv
+ 2488  matUtils summary -i Dataset.v04/Trees/tree.intersection.gb.optimized.pb -m tree.intersection.gb.opt.mutations.tsv
+ 2489  matUtils summary -i Dataset.v04/Trees/tree.intersection.viridian.optimized.pb -m tree.intersection.viridian.opt.mutations.tsv
+ 2490  ls
+ 2491  matUtils summary -i Dataset.v04/Trees_alt_order/tree.all_viridian.optimized.pb -m tree.altorder.all.viridian.opt.mutations.tsv
+ 2492  matUtils summary -i Dataset.v04/Trees_alt_order/tree.intersection.gb.optimized.pb -m tree.altorder.intersection.gb.opt.mutations.tsv
+ 2493  matUtils summary -i Dataset.v04/Trees_alt_order/tree.intersection.viridian.optimized.pb -m tree.altorder.intersection.viridian.opt.mutations.tsv
+ 2494  ls
+ 2495  py ~/scripts/viridian-paper/code/back-mutation.py 
+ 2496  py ~/scripts/viridian-paper/code/back-mutation.py -f ~/scripts/viridian-paper/Dataset.v02/figure_data/NC_045512v2.fa 
+ 2497  py ~/scripts/viridian-paper/code/back-mutation.py -f ~/scripts/viridian-paper/Dataset.v02/figure_data/NC_045512v2.fa -m tree.altorder.all.viridian.opt.mutations.tsv 
+ 2498  py ~/scripts/viridian-paper/code/back-mutation.py -f ~/scripts/viridian-paper/Dataset.v02/figure_data/NC_045512v2.fa -m tree.altorder.all.viridian.opt.mutations.tsv -o . -n tree.alt.all.vir.opt
+ 2499  ls
+ 2500  py ~/scripts/viridian-paper/code/back-mutation.py -f ~/scripts/viridian-paper/Dataset.v02/figure_data/NC_045512v2.fa -m tree.altorder.intersection.viridian.opt.mutations.tsv -o . -n tree.alt.int.vir.opt
+ 2501  ls
+ 2502  py ~/scripts/viridian-paper/code/back-mutation.py -f ~/scripts/viridian-paper/Dataset.v02/figure_data/NC_045512v2.fa -m tree.altorder.intersection.gb.opt.mutations.tsv -o . -n tree.alt.int.gb.opt
+ 2503  ls
+ 2504  py ~/scripts/viridian-paper/code/back-mutation.py -f ~/scripts/viridian-paper/Dataset.v02/figure_data/NC_045512v2.fa -m tree.all_viridian.opt.mutations.tsv -o . -n tree.all.vir.opt
+ 2505  ls
+ 2506  py ~/scripts/viridian-paper/code/back-mutation.py -f ~/scripts/viridian-paper/Dataset.v02/figure_data/NC_045512v2.fa -m tree.intersection.gb.opt.mutations.tsv -o . -n tree.int.gb.opt
+ 2507  py ~/scripts/viridian-paper/code/back-mutation.py -f ~/scripts/viridian-paper/Dataset.v02/figure_data/NC_045512v2.fa -m tree.intersection.viridian.opt.mutations.tsv -o . -n tree.int.vir.opt
+ 2508  ls
+ 2509  ;s
+ 2510  ls
+ 2511  cd ../
+ 2512  ls
+ 2513  mkdir 20240318
+ 2514  cd 20240318/
+ 2515  ls
+ 2516  unzip Trees_alt_order-20240319T002618Z-001.zip 
+ 2517  ls
+ 2518  cd Trees_alt_order/
+ 2519  ls
+ 2520  py ~/scripts/viridian-paper
+ 2521  py ~/scripts/viridian-paper/code/reversionthreshold.py 
+ 2522  py ~/scripts/viridian-paper/code/clade_comparison_figure.py 
+ 2523  matUtils summary -i tree.intersection.gb.optimized.pb -m tree.intersection.gb.optimized.mutations.tsv
+ 2524  matUtils summary -i tree.intersection.viridian.optimized.pb -m tree.intersection.viridian.optimized.mutations.tsv
+ 2525  ls
+ 2526  py ~/scripts/viridian-paper/code/table_figure.py 
+ 2527  py ~/scripts/viridian-paper/code/xy_scatterplot_manuscript.py 
+ 2528  py ~/scripts/viridian-paper/code/xy_scatterplot_manuscript.py -d .. -of final_xy -r ~/scripts/viridian-paper/Dataset.v02/figure_data/NC_045512v2.fa 
+ 2529  py ~/scripts/viridian-paper/code/xy_scatterplot_manuscript.py -d .. -of final_xy -r ~/scripts/viridian-paper/Dataset.v02/figure_data/NC_045512v2.fa -vir tree.intersection.viridian.optimized.mutations.tsv -gb tree.intersection.gb.optimized.mutations.tsv 
+ 2530  py ~/scripts/viridian-paper/code/reversionthreshold.py -d .. -of final_xy -r ~/scripts/viridian-paper/Dataset.v02/figure_data/NC_045512v2.fa -vir tree.intersection.viridian.optimized.mutations.tsv -gb tree.intersection.gb.optimized.mutations.tsv 
+ 2531  py ~/scripts/viridian-paper/code/reversionthreshold.py -d .. -of reversion -r ~/scripts/viridian-paper/Dataset.v02/figure_data/NC_045512v2.fa -vir tree.intersection.viridian.optimized.mutations.tsv -gb tree.intersection.gb.optimized.mutations.tsv 
+ 2532  py ~/scripts/viridian-paper/code/clade_comparison_figure.py 
+ 2533  py ~/scripts/viridian-paper/code/clade_comparison_figure.py -d .. -vir tree.intersection.viridian.optimized.mutations.tsv -gb tree.intersection.gb.optimized.mutations.tsv 
+ 2534  less ~/scripts/viridian-paper/code/oldcmds 
+ 2535  ls
+ 2536  zcat run_metadata.tsv.gz | cut -f4,6 > figure_data/introducemetadata.tsv
+ 2537  zcat run_metadata.tsv.gz | cut -f4,6 > introducemetadata.tsv
+ 2538  zcat run_metadata_march19.tsv.gz | cut -f4,6 > introducemetadata.tsv
+ 2539  matUtils introduce -i tree.intersection.viridian.optimized.pb -s introducemetadata.tsv -u introducemetadata.viridian.tsv
+ 2540  la
+ 2541  ls
+ 2542  less introducemetadata.viridian.tsv 
+ 2543  matUtils extract -i tree.intersection.gb.optimized.pb -t tree.intersection.gb.optimized.nwk
+ 2544  cat tree.intersection.gb.optimized.nwk | perl -pe 's/,/\n/g' | sed 's/:.*$//' | perl -pe 's/\(//g' | awk -F'.' '{new_column = $1; print new_column "\t" $0 }' > gbsamples.tsv
+ 2545  less gbsamples.tsv 
+ 2546  join -t $'\t' -1 1 -2 1 <(sort -k1,1 introducemetadata.tsv) <(sort -k1,1 gbsamples.tsv) | awk -F '\t' '{print $3 "\t" $2}'
+ 2547  less introducemetadata.viridian.tsv 
+ 2548  less introducemetadata.tsv 
+ 2549  join -t $'\t' -1 1 -2 1 <(sort -k1,1 introducemetadata.tsv) <(sort -k1,1 gbsamples.tsv) | awk -F '\t' '{print $3 "\t" $2}'
+ 2550  join -t $'\t' -1 1 -2 1 <(sort -k1,1 introducemetadata.tsv) <(sort -k1,1 gbsamples.tsv) | awk -F '\t' '{print $3 "\t" $2}' > introducemetadata.gb.tsv
+ 2551  matUtils introduce -i tree.intersection.gb.optimized.pb -s introducemetadata.gb.tsv -u introducemetadata.gb.intros.tsv
+ 2552  less introducemetadata.viridian.tsv 
+ 2553  less introducemetadata.gb.intros.tsv 
+ 2554* py ~/scripts/viridian-paper/code/intro_table.py 
+ 2555  ls
+ 2556  cat introducemetadata.viridian.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' | uniq -c
+ 2557  less ~/scripts/viridian-paper/Dataset.v03/figure_data/gb.counts.tsv 
+ 2558  cat introducemetadata.viridian.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' 
+ 2559  cat introducemetadata.viridian.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' > vir.counts.tsv
+ 2560  cat introducemetadata.gb.intros.tsv | cut -f1,2 | perl -pe 's/_node_\d+//' > gb.counts.tsv
+ 2561  py ~/scripts/viridian-paper/code/clade_comparison.py 
+ 2562  py ~/scripts/viridian-paper/code/clade_comparison.py -d ../ -vir introducemetadata.viridian.tsv -gb introducemetadata.gb.intros.tsv 
+ 2563  py ~/scripts/viridian-paper/code/clade_comparison.py -d ../ -vir introducemetadata.viridian.tsv -gb introducemetadata.gb.intros.tsv > cladecomp-output.tsv
+ 2564  less cladecomp-output.tsv 
+ 2565  less introducemetadata.viridian.tsv 
+ 2566  cat introducemetadata.viridian.tsv | wc -l
+ 2567  cat introducemetadata.gb.intros.tsv | wc -l
+ 2568  py ~/scripts/viridian-paper/code/clade_comparison.py -d ../ -vir vir.counts.tsv -gb gb.counts.tsv > cladecomp-output.tsv
+ 2569  less cladecomp-output.tsv 
+ 2570  py ~/scripts/viridian-paper/code/clade_comparison.py -d ../ -vir vir.counts.tsv -gb gb.counts.tsv | grep 'United Kingdom'
+ 2571  py ~/scripts/viridian-paper/code/clade_comparison.py -d ../ -vir vir.counts.tsv -gb gb.counts.tsv | grep 'United Kingdom'> UK_clade_comp.tsv
+ 2572  py ~/scripts/viridian-paper/code/clade_comparison.py -d ../ -vir vir.counts.tsv -gb gb.counts.tsv | grep 'USA' 
+ 2573  py ~/scripts/viridian-paper/code/clade_comparison.py -d ../ -vir vir.counts.tsv -gb gb.counts.tsv | grep 'USA' > US_clade_comp.tsv
+ 2574  py ~/scripts/viridian-paper/code/table_figure.py US_clade_comp.tsv USA
+ 2575  ls
+ 2576  py ~/scripts/viridian-paper/code/reversionthreshold.py 
+ 2577  py ~/scripts/viridian-paper/code/reversionthreshold.py -d .. -of reversionthreshold -r ~/scripts/viridian-paper/Dataset.v02/figure_data/NC_045512v2.fa -vir tree.intersection.viridian.optimized.mutations.tsv -gb tree.intersection.gb.optimized.mutations.tsv 
+ 2578  py ~/scripts/viridian-paper/code/clade_comparison_figure.py -d .. -of cladecomp -r ~/scripts/viridian-paper/Dataset.v02/figure_data/NC_045512v2.fa -vir tree.intersection.viridian.optimized.mutations.tsv -gb tree.intersection.gb.optimized.mutations.tsv 
+ 2579  py ~/scripts/viridian-paper/code/clade_comparison_figure.py -d ..  -vir tree.intersection.viridian.optimized.mutations.tsv -gb tree.intersection.gb.optimized.mutations.tsv 
+ 2580  ls
+ 2581  ls ../
+ 2582  py ~/scripts/viridian-paper/code/clade_comparison_figure.py -d ..  -vir tree.intersection.viridian.optimized.mutations.tsv -gb tree.intersection.gb.optimized.mutations.tsv 
+ 2583  py ~/scripts/viridian-paper/code/clade_comparison_figure.py -d ..  -vir tree.intersection.viridian.optimized.mutations.tsv -gb tree.intersection.gb.optimized.mutations.tsv -dd .
+ 2584  ls
+ 2585  less gb.cumulative.tsv 
+ 2586  py ~/scripts/viridian-paper/code/clade_comparison_figure.py -d ..  -vir vir.counts.tsv -gb gb.counts.tsv -dd .
+ 2587  ls -lh 
+ 2588  ls -lh ..
+ 2589  py ~/scripts/viridian-paper/code/clade_comparison_figure.py -d ..  -vir vir.counts.tsv -gb gb.counts.tsv -dd .
+ 2590  history > makecladecomp
