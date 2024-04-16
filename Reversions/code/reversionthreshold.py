@@ -14,7 +14,7 @@ def make_histo(mutname, ref_seq):
                 histo[int(line[0])] = int(line[3])
             else:
                 histo[int(line[0])] += int(line[3])
-    counts = []          
+    counts = []
     for i in range(1, len(ref_seq)+1):
         if i not in histo:
             counts.append(0)
@@ -43,7 +43,7 @@ def main(dir, ref, m1, m2, of, rm):
 
     #contains all positions and their counts including counts of 0
     counts1 = make_histo(m1name, ref_seq)
-    counts2 = make_histo(m2name, ref_seq) 
+    counts2 = make_histo(m2name, ref_seq)
 
     c1_list = []
     c2_list = []
@@ -54,7 +54,7 @@ def main(dir, ref, m1, m2, of, rm):
         for j in range(len(counts1)):
             if counts1[j] > i:
                 c1c +=1
-            else: 
+            else:
                 c1_list.append(c1c)
                 break
 
@@ -62,7 +62,7 @@ def main(dir, ref, m1, m2, of, rm):
         for j in range(len(counts2)):
             if counts2[j] > i:
                 c2c +=1
-            else: 
+            else:
                 c2_list.append(c2c)
                 break
 
@@ -89,6 +89,7 @@ def main(dir, ref, m1, m2, of, rm):
     Genbank = panel1.plot(xs, c2_list, c='r', label='Genbank', alpha=.5)
     plt.legend()
     plt.savefig( f'{dir}{of}.png',dpi=600)
+    plt.savefig( f'{dir}{of}.pdf')
     if rm:
         os.system(f'rm {dir}/backmuts-*')
 
