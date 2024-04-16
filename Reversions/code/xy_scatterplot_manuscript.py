@@ -6,7 +6,7 @@ import matplotlib.patches as mplpatches
 import numpy as np
 import argparse
 
-#import math 
+#import math
 
 #count reversions at each position of genome across the whole tree
 def make_histo(mutname, ref_seq):
@@ -16,13 +16,13 @@ def make_histo(mutname, ref_seq):
         for line in f:
             line = line.strip().split()
             #print(line)
-                
+
             if int(line[0]) not in histo:
                 histo[int(line[0])] = int(line[3])
             else:
                 histo[int(line[0])] += int(line[3])
     #convert histogram to a list the length of the SARS-CoV-2 genome. Each index of the list corresponds to the 0-index position of SARS
-    counts = []          
+    counts = []
     for i in range(1, len(ref_seq)+1):
         if i not in histo:
             counts.append(0)
@@ -32,7 +32,7 @@ def make_histo(mutname, ref_seq):
     return counts
 
 #process data and make plot
-def main(dir, ref, m1, m2, of, m1name, m2name, software_dir, rm):   
+def main(dir, ref, m1, m2, of, m1name, m2name, software_dir, rm):
     #make backmut1
     os.system(f'python3 {software_dir}back-mutation.py -f {ref} -m {m1} -o {dir} -n {m1name}')
     #make backmut2
@@ -45,16 +45,16 @@ def main(dir, ref, m1, m2, of, m1name, m2name, software_dir, rm):
                 ref_seq += line
 
     counts1 = make_histo(m1name, ref_seq)
-    counts2 = make_histo(m2name, ref_seq)  
+    counts2 = make_histo(m2name, ref_seq)
 
     assert len(counts1) == len(counts2)
     sortedc1 = sorted(counts1)
     sortedc2 = sorted(counts2)
-    
+
     #identify outliers for left plot
     outsc1 = sortedc1[-3:]
     outsc2 = sortedc2[-3:]
-    
+
     outs = []
     for c in outsc1:
         ind = counts1.index(c)
@@ -70,7 +70,7 @@ def main(dir, ref, m1, m2, of, m1name, m2name, software_dir, rm):
     sc2_zoom = [i for i in counts2 if i>100 and i < 5000 and counts1[counts2.index(i)] < 5000 and counts1[counts2.index(i)] > 100]
     outsc1_zoom = sorted(sc1_zoom)[-3:]
     outsc2_zoom = sorted(sc2_zoom)[-3:]
-    
+
     for c in outsc1_zoom:
         ind = counts1.index(c)
         outs_zoom.append((c,counts2[ind],ind))
@@ -78,7 +78,7 @@ def main(dir, ref, m1, m2, of, m1name, m2name, software_dir, rm):
     for c in outsc2_zoom:
         ind = counts2.index(c)
         outs_zoom.append((counts1[ind],c,ind))
-    
+
     #make plots
     fig, axs = plt.subplots(nrows = 1, ncols= 2, figsize = (8,4),layout="constrained")
     panel1 = axs[0]
@@ -107,13 +107,13 @@ def main(dir, ref, m1, m2, of, m1name, m2name, software_dir, rm):
     rectangle1=mplpatches.Rectangle([100,100],790,990,
                                     linewidth=.7,
                                     edgecolor='black', facecolor='none', ls='--')
-    
+
     panel2.spines['top'].set_linestyle(':')
     panel2.spines['right'].set_linestyle(':')
     panel2.spines['bottom'].set_linestyle(':')
     panel2.spines['left'].set_linestyle(':')
 
-    
+
     # Set arrow properties
     arrow_length = 3000
     label_offset = 500
@@ -132,16 +132,16 @@ def main(dir, ref, m1, m2, of, m1name, m2name, software_dir, rm):
         if o[2] == 23947:
             arrow_end = (o[0], o[1] + label_offset)
             arrow_start = (o[0] + 1200, o[1]+ arrow_length + label_offset)
-        
+
         arrow = mplpatches.FancyArrowPatch(arrow_start, arrow_end,
                                 arrowstyle='->', mutation_scale=7, color='black', linewidth=1)
         panel1.add_patch(arrow)
-        
+
         # Add labels
-        panel1.text(arrow_start[0], arrow_start[1] , f'{o[2]}', ha='center', va='bottom', fontsize=9)
+        panel1.text(arrow_start[0], arrow_start[1] , f'{o[2]+1}', ha='center', va='bottom', fontsize=9)
 
     # Create arrows pointing to each coordinate in outs_zoom (for right plot)
-    #conditionals adjust arrow placement for certain positions 
+    #conditionals adjust arrow placement for certain positions
     arrow_length = 500
     label_offset = 50
     for o in outs_zoom:
@@ -155,17 +155,17 @@ def main(dir, ref, m1, m2, of, m1name, m2name, software_dir, rm):
             arrow_start = (o[0] + 550, o[1]+ arrow_length + 200 + label_offset)
         if o[2] == 24409:
             arrow_end = (o[0], o[1] + label_offset)
-            arrow_start = (o[0] + 400, o[1]+ arrow_length + 600 + label_offset)   
+            arrow_start = (o[0] + 400, o[1]+ arrow_length + 600 + label_offset)
         if o[2] == 27637:
             arrow_end = (o[0], o[1] + label_offset)
             arrow_start = (o[0] + 500, o[1]+ arrow_length + 0 + label_offset)
-            
-        
+
+
         arrow = mplpatches.FancyArrowPatch(arrow_start, arrow_end,
                                 arrowstyle='->', mutation_scale=7, color='black', linewidth=1)
         panel2.add_patch(arrow)
-        panel2.text(arrow_start[0], arrow_start[1], f'{o[2]}', ha='center', va='bottom', fontsize=9)
-        
+        panel2.text(arrow_start[0], arrow_start[1], f'{o[2]+1}', ha='center', va='bottom', fontsize=9)
+
     #add rectangle to left plot to indicate zoomed in spot
     rectangle1=mplpatches.Rectangle([100,100],4900,4900,
                                     linewidth=.7,
@@ -173,6 +173,7 @@ def main(dir, ref, m1, m2, of, m1name, m2name, software_dir, rm):
     panel1.add_patch(rectangle1)
 
     plt.savefig( f'{dir}{of}.png',dpi=600)
+    plt.savefig( f'{dir}{of}.pdf')
     if rm:
         os.system(f'rm {dir}/backmuts-*')
 
@@ -204,7 +205,7 @@ if __name__ == '__main__':
     software_dir = '/'.join(sys.argv[0].split('/')[:-1])+'/'
     if software_dir == '/':
         software_dir = './'
-    
+
     rm = args.remove_files
     main(dir, ref, m1, m2, of, m1name, m2name, software_dir, rm)
 
