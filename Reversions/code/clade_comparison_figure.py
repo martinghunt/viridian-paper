@@ -4,7 +4,7 @@ import sys
 import subprocess
 import matplotlib.pyplot as plt
 
-#create a dictionary for usa and uk for each file 
+#create a dictionary for usa and uk for each file
 def read_parsed_intros(file_path):
     data_dict = {}
     with open(file_path, 'r') as file:
@@ -43,7 +43,7 @@ def compute_percent_difference(data1, data2):
                 if count1 != 0:
                     diff = count1 - count2
                     percent_diff = (count1 - count2) / count1
-                    print( key, value, count1, count2, diff, percent_diff, sep='\t' ) 
+                    print( key, value, count1, count2, diff, percent_diff, sep='\t' )
 
 def compute_cdf(data_dict, output):
     cdf_dict = {}
@@ -56,12 +56,12 @@ def compute_cdf(data_dict, output):
 
             # Sort the inner dictionary keys in ascending order
             sorted_keys = sorted(inner_dict.keys(), key=lambda x: float(x))
-            
+
             print(sorted_keys)
             for inner_key in sorted_keys:
                 total_count += inner_dict[inner_key] * int( inner_key )
                 cumulative_counts[inner_key] = total_count
-                #print ( key, inner_key, total_count ) 
+                #print ( key, inner_key, total_count )
                 o.write(f'{key}\t{inner_key}\t{total_count}\n')
 
             cdf_dict[key] = cumulative_counts
@@ -78,7 +78,7 @@ def read_tab_delimited_file(file_path):
             cum_samps = int(columns[2])
 
             # Check if key exists in the dictionary, if not, add it
-            
+
             if country == 'USA' or country == 'United Kingdom':
                 if country not in data_dict:
                     data_dict[country] = [(clust_size, cum_samps)]
@@ -94,7 +94,7 @@ def read_tab_delimited_file(file_path):
 def make_figure(data_dict1, data_dict2, dir):
     print(data_dict1)
     usa_x1 = [i[0] for i in data_dict1['USA']]
-    
+
     usa_y1 = [i[1] for i in data_dict1['USA']]
     uk_x1 = [i[0] for i in data_dict1['United Kingdom']]
     uk_y1 = [i[1] for i in data_dict1['United Kingdom']]
@@ -113,7 +113,7 @@ def make_figure(data_dict1, data_dict2, dir):
         for j in range(len(counts1)):
             if counts1[j] > i:
                 c1c +=1
-            else: 
+            else:
                 c1_list.append(c1c)
                 break
 
@@ -121,7 +121,7 @@ def make_figure(data_dict1, data_dict2, dir):
         for j in range(len(counts2)):
             if counts2[j] > i:
                 c2c +=1
-            else: 
+            else:
                 c2_list.append(c2c)
                 break
                 '''
@@ -154,6 +154,7 @@ def make_figure(data_dict1, data_dict2, dir):
     #Genbank = panel1.plot(xs, c2_list, c='r', label='Genbank', alpha=.5)
     panel2.legend()
     plt.savefig(f'{dir}clade_comparison.png',dpi=600)
+    plt.savefig(f'{dir}clade_comparison.pdf')
     #if rm:
     #    os.system(f'rm {dir}/backmuts-*')
 
@@ -172,22 +173,22 @@ def main(vir, gb, dir):
 
     # Read data from the first file
     data1 = read_parsed_intros(gb)
-    
+
     # Read data from the second file
     data2 = read_parsed_intros(vir)
     #compute_percent_difference(data1, data2)
     #print(data1)
-    cdf1 = compute_cdf(data1, f'{dir}gb.cumulative.tsv') 
-    cdf2 = compute_cdf(data2, f'{dir}vir.cumulative.tsv') 
+    cdf1 = compute_cdf(data1, f'{dir}gb.cumulative.tsv')
+    cdf2 = compute_cdf(data2, f'{dir}vir.cumulative.tsv')
 
-    
+
     #contains all positions and their counts including counts of 0
     gb_data = read_tab_delimited_file(f'{dir}gb.cumulative.tsv')
     vir_data = read_tab_delimited_file(f'{dir}vir.cumulative.tsv')
     make_figure(gb_data, vir_data, dir)
-    
 
-    
+
+
 
 #create args
 if __name__ == "__main__":
