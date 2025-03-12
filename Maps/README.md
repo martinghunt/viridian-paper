@@ -1,6 +1,6 @@
 # Maps and country counts
 
-## Preprint version 1 April 2024
+## Preprint version 1 April 2024
 
 To reproduce the world map (main figure), map of Europe (supplementary
 figure), and the supplementary table of country counts, run:
@@ -18,7 +18,7 @@ The output files of the script are also included here:
 * `maps.20240319.legend.pdf` - legend for the maps
 * `maps.20240319.suppl_counts.tsv` - supplementary table of country counts
 
-## Preprint version 2 September 2024
+## Preprint version 2 September 2024
 
 The maps were made with:
 
