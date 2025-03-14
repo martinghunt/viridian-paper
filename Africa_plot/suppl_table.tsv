@@ -1,0 +1,13 @@
+Dataset	Tool	Total_errors	Sites_with_error
+Illumina, ARTIC-V3	Viridian	32	21
+Illumina, ARTIC-V3	Original	10909	1989
+Illumina, ARTIC-V3	ARTIC-ILM	353	137
+Illumina, ARTIC-V4.1	Viridian	31	8
+Illumina, ARTIC-V4.1	Original	3665	660
+Illumina, ARTIC-V4.1	ARTIC-ILM	219	45
+Nanopore, ARTIC-V3	Viridian	86	15
+Nanopore, ARTIC-V3	Original	2087	227
+Nanopore, ARTIC-V3	ARTIC-ONT	2148	157
+Nanopore, Midnight	Viridian	35	10
+Nanopore, Midnight	Original	1069	181
+Nanopore, Midnight	ARTIC-ONT	1152	119
